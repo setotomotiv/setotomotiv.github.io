@@ -1,0 +1,5 @@
+/* TEAM */
+Site: Set Otomotiv
+Design: Turkuaz Desing
+Technology: Bootstrap 5, GitHub Pages
+Language: Turkish

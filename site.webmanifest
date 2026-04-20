@@ -1,0 +1,21 @@
+{
+  "name": "Set Otomotiv",
+  "short_name": "Set Otomotiv",
+  "description": "Yedek parça, otomotiv boya ve sanayi boya çözümleri.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f8fc",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    {
+      "src": "assets/images/logo/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/logo/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
