@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: assets/js/site.js
 # 📌 Amac: statik kurumsal sitede ortak arayuz davranislarini yonetmek
 # 📌 Modul - JavaScript
-# Version: 3.2.0
-# Aciklama: loader, aktif menu, dil secimi, slider, cerez ve opsiyonel tracking davranislarini yonetir
+# Version: 3.3.1
+# Aciklama: loader, aktif menu, dil secimi, slider, cerez, yukari tusu ve opsiyonel tracking davranislarini yonetir
 # Bagimli Oldugu Katman: View
 */
 (function () {
@@ -248,11 +248,35 @@
     return wrapper;
   }
 
+  function syncBackToTopOffset(node) {
+    var rootNode = document.documentElement;
+    var bodyNode = document.body;
+
+    if (!rootNode || !bodyNode) {
+      return;
+    }
+
+    var isVisible = node && node.classList.contains('is-visible') && !node.classList.contains('is-hidden');
+
+    if (!isVisible) {
+      rootNode.style.setProperty('--back-to-top-bottom', '18px');
+      bodyNode.classList.remove('has-cookie-consent-visible');
+      return;
+    }
+
+    var consentHeight = Math.ceil(node.getBoundingClientRect().height || 0);
+    var safeOffset = Math.max(82, consentHeight + 34);
+    rootNode.style.setProperty('--back-to-top-bottom', safeOffset + 'px');
+    bodyNode.classList.add('has-cookie-consent-visible');
+  }
+
   function hideConsent(node) {
     if (!node) {
       return;
     }
+    node.classList.remove('is-visible');
     node.classList.add('is-hidden');
+    syncBackToTopOffset(node);
   }
 
   function showConsent(node) {
@@ -260,6 +284,10 @@
       return;
     }
     node.classList.remove('is-hidden');
+    node.classList.add('is-visible');
+    window.requestAnimationFrame(function () {
+      syncBackToTopOffset(node);
+    });
   }
 
   function bindConsentEvents(node) {
@@ -282,6 +310,9 @@
 
       if (action === 'toggle') {
         panel.hidden = !panel.hidden;
+        window.setTimeout(function () {
+          syncBackToTopOffset(node);
+        }, 30);
         return;
       }
 
@@ -363,9 +394,58 @@
       }
       applyTracking(savedConsent);
       hideConsent(bannerNode);
+    } else {
+      showConsent(bannerNode);
+    }
+
+    if (bannerNode.dataset.resizeBound !== 'true') {
+      bannerNode.dataset.resizeBound = 'true';
+      window.addEventListener('resize', function () {
+        syncBackToTopOffset(bannerNode);
+      });
     }
 
     bindConsentEvents(bannerNode);
+  }
+
+  function initBackToTop() {
+    var bodyNode = document.body;
+    var pageLang = bodyNode ? bodyNode.getAttribute('data-page-lang') || 'tr' : 'tr';
+    var label = pageLang === 'en' ? 'Back to top' : 'Yukari cik';
+    var buttonNode = document.getElementById('backToTopButton');
+
+    if (!buttonNode) {
+      buttonNode = document.createElement('button');
+      buttonNode.id = 'backToTopButton';
+      buttonNode.className = 'back-to-top';
+      buttonNode.type = 'button';
+      buttonNode.innerHTML = '<i class="bi bi-arrow-up-short" aria-hidden="true"></i><span class="visually-hidden"></span>';
+      document.body.appendChild(buttonNode);
+    }
+
+    buttonNode.setAttribute('aria-label', label);
+    var hiddenLabel = buttonNode.querySelector('.visually-hidden');
+    if (hiddenLabel) {
+      hiddenLabel.textContent = label;
+    }
+
+    function syncVisibility() {
+      if (window.scrollY > 80) {
+        buttonNode.classList.add('is-visible');
+      } else {
+        buttonNode.classList.remove('is-visible');
+      }
+    }
+
+    if (buttonNode.dataset.bound !== 'true') {
+      buttonNode.dataset.bound = 'true';
+      buttonNode.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+      window.addEventListener('scroll', syncVisibility, { passive: true });
+    }
+
+    syncVisibility();
   }
 
 
@@ -446,6 +526,7 @@
     initHeroSlider();
     initLanguagePreference();
     initConsent();
+    initBackToTop();
     initScrollReveal();
   }
 
