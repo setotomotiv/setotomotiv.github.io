@@ -1,11 +1,35 @@
 # 📄 Dosya Yolu: docs/changelog.md
 # 📌 Amac: proje paket degisikliklerini surum bazli kaydetmek
 # 📌 Modul - Markdown
-# Version: 1.0.0
+# Version: 1.0.1
 # Aciklama: Set Otomotiv statik site paketlerinin degisiklik ozetini tutar
 # Bagimli Oldugu Katman: View
 
 # Changelog
+
+## v6.3.13 - Header Social Icon Fix
+
+- Header ve footer sosyal medya ikonlari Bootstrap Icons fontuna bagimli kalmayacak sekilde inline SVG olarak guncellendi.
+- Chrome tarafinda CDN/font gecikmesi veya cache farki nedeniyle sosyal ikonlarin gorunmemesi riski azaltildi.
+- Sosyal ikon boyutlari `assets/css/site.css` icinde sabitlendi.
+
+## v6.3.12 - Back To Top Visibility Fix
+
+- Yukari cik butonunun Chrome ve mobil gorunumde daha erken gorunmesi icin scroll esigi 320 px yerine 80 px yapildi.
+- Yukari cik butonunun `z-index` degeri yukseltildi.
+- Cerez tercih kutusu acikken yukari cik butonunun kutu altinda kalmamasi icin dinamik alt bosluk hesabi eklendi.
+- Cerez tercih kutusunun `is-visible` sinifi ile dogru acilip kapanmasi saglandi.
+- `assets/css/site.css` ve `assets/js/site.js` patch surumleri guncellendi.
+
+## v6.3.11 - GDPR Notice
+
+- `tr/gdpr.html` KVKK / GDPR aydinlatma metni eklendi.
+- `en/gdpr.html` GDPR Notice sayfasi eklendi.
+- Root `gdpr.html` yonlendirme dosyasi eklendi.
+- Footer yasal linklerine TR icin `KVKK / GDPR`, EN icin `GDPR` linki eklendi.
+- Gizlilik sayfalarindan GDPR sayfasina gecis eklendi.
+- `sitemap.xml` GDPR sayfalari ile guncellendi.
+- EN gizlilik sayfasindaki canonical/hreflang ve metin yazim hatalari duzeltildi.
 
 ## v6.3.10 - HTTPS Guard
 

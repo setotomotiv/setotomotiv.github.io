@@ -19,6 +19,7 @@ Onemli dosyalar:
 - `site.webmanifest`: PWA ve icon tanimlaridir
 - `browserconfig.xml`: eski Microsoft tile tanimidir
 - `humans.txt`: proje/marka bilgisi icindir
+- `gdpr.html`: KVKK / GDPR sayfasina kisa yonlendirme dosyasidir
 
 ## Dil Klasorleri
 
@@ -29,6 +30,8 @@ Her iki dil klasorunde sayfa isimleri mumkun oldugunca ayni kalir.
 Ornek:
 - `tr/catalogs.html`
 - `en/catalogs.html`
+- `tr/gdpr.html`
+- `en/gdpr.html`
 
 ## Partials
 

@@ -90,3 +90,10 @@ Katalog PDF dosyalari eklendiginde:
 - Ana kanonik domain `https://setotomotiv.com` olarak korunur.
 - `www.setotomotiv.com` kullanimi kanonik domaine yonlendirilir.
 - Localhost test ortamlarinda HTTPS guard devre disi kalir.
+
+## 11. GDPR SEO Notu
+
+- `tr/gdpr.html` ve `en/gdpr.html` kendi canonical adreslerine sahip olmalidir.
+- GDPR sayfalari sitemap icinde yer almalidir.
+- Footer yasal linklerinde gizlilik, GDPR ve cerez tercihleri birlikte gorunmelidir.
+- Root `gdpr.html` ana TR GDPR sayfasina yonlendirme yapar.

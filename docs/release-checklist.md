@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: docs/release-checklist.md
 # 📌 Amac: yayin oncesi kalite kontrol adimlarini sabitlemek
 # 📌 Modul - Markdown
-# Version: 1.1.0
+# Version: 1.1.1
 # Aciklama: zip almadan once kontrol edilmesi gereken tasarim, icerik, SEO, asset ve link maddelerini listeler
 # Bagimli Oldugu Katman: View
 
@@ -17,7 +17,8 @@
 - [ ] Hizmet kartlari responsive duzende mi
 - [ ] Marka kartlari ve katalog kartlari mobilde tasma yapiyor mu
 - [ ] Contact quick quote bandi dogru gorunuyor mu
-- [ ] Yukari cik butonu scroll sonrasi gorunuyor ve sayfa basina donuyor mu
+- [ ] Yukari cik butonu 80 px sonrasi gorunuyor ve sayfa basina donuyor mu
+- [ ] Cerez tercih kutusu acikken yukari cik butonu kutunun altinda kalmiyor mu
 
 ## Icerik
 
@@ -52,6 +53,8 @@
 - [ ] `https-guard.js` local test ortaminda gereksiz yonlendirme yapmiyor mu
 - [ ] Cookie banner aciliyor mu
 - [ ] Cerez tercihleri linki calisiyor mu
+- [ ] KVKK / GDPR footer linki calisiyor mu
+- [ ] `tr/gdpr.html` ve `en/gdpr.html` sayfalari aciliyor mu
 
 ## SEO
 
@@ -59,7 +62,7 @@
 - [ ] Her sayfada meta description dolu mu
 - [ ] Canonical dogru mu
 - [ ] Hreflang TR/EN/x-default uyumlu mu
-- [ ] `sitemap.xml` katalog sayfalarini iceriyor mu
+- [ ] `sitemap.xml` katalog ve GDPR sayfalarini iceriyor mu
 - [ ] `robots.txt` mevcut mu
 - [ ] 404 sayfasi mevcut mu
 
@@ -78,3 +81,5 @@
 - [ ] GitHub Pages icin kok yapisi dogru mu
 - [ ] Paket acildiginda `index.html` kokte duruyor mu
 - [ ] `docs/changelog.md` son paket bilgisini iceriyor mu
+
+- Header sosyal medya ikonlari TR/EN ve mobil/desktop gorunumde kontrol edildi.

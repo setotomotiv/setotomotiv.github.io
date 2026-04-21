@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: docs/asset-guide.md
 # 📌 Amac: asset klasorunun temiz ve performansli kalmasini saglamak
 # 📌 Modul - Markdown
-# Version: 1.0.0
+# Version: 1.0.1
 # Aciklama: CSS, JS, gorsel, font ve katalog dosyalarinin nasil yonetilecegini tanimlar
 # Bagimli Oldugu Katman: View
 
@@ -98,3 +98,10 @@ Zip almadan once su kontroller yapilir:
 - Kirik gorsel yolu yok mu
 - Katalog PDF linkleri dogru mu
 - Paket boyutu gereksiz sismemis mi
+
+## Yukari Cik Butonu Kurali
+
+- Buton HTML icine sabit yazilmaz; `assets/js/site.js` tarafindan uretilir.
+- Gorunurluk scroll sonrasi JS ile yonetilir.
+- Cerez tercih kutusu acikken buton alt boslugu CSS degiskeni ile dinamik ayarlanir.
+- `z-index` degeri footer, cerez ve sabit alanlarla cakismayacak sekilde korunur.

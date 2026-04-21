@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: docs/README.md
 # 📌 Amac: proje dokumanlarinin merkez index dosyasi olmak
 # 📌 Modul - Markdown
-# Version: 1.2.0
+# Version: 1.3.1
 # Aciklama: Set Otomotiv statik site dokumanlarini guncel proje yapisina gore listeler
 # Bagimli Oldugu Katman: View
 
@@ -19,6 +19,7 @@ Kod degismeden once ilgili dokuman kontrol edilmeli ve gerekiyorsa guncellenmeli
 - Ortak parca sistemi: `partials/<lang>/*.html`
 - Ana stil dosyasi: `assets/css/site.css`
 - Aktif JS dosyalari: `assets/js/*.js`
+- Yukari cik butonu: `assets/js/site.js` tarafindan olusturulur, scroll sonrasi gorunur
 - HTTPS guard: `assets/js/https-guard.js`
 - Font kullanimi: Google Fonts Inter CDN
 - Ikon kullanimi: Bootstrap Icons CDN
@@ -35,6 +36,7 @@ TR:
 - `tr/catalogs.html`
 - `tr/contact.html`
 - `tr/privacy.html`
+- `tr/gdpr.html`
 - `tr/404.html`
 
 EN:
@@ -46,6 +48,7 @@ EN:
 - `en/catalogs.html`
 - `en/contact.html`
 - `en/privacy.html`
+- `en/gdpr.html`
 - `en/404.html`
 
 Root kisa yonlendirme sayfalari:
@@ -59,6 +62,7 @@ Root kisa yonlendirme sayfalari:
 - `contact.html`
 - `ref.html`
 - `privacy.html`
+- `gdpr.html`
 
 ## Dokumanlar
 
@@ -84,6 +88,8 @@ Root kisa yonlendirme sayfalari:
 - Chrome ve Firefox arasinda gorulebilen header/menu boyut kaymasi icin responsive kirilim duzeltildi.
 - Sabit WhatsApp hizli iletisim kutusu kaldirildi; yerine yukari cik butonu eklendi.
 - HTTP ve www kullanimini kanonik HTTPS adrese yonlendiren `https-guard.js` eklendi.
+- `tr/gdpr.html`, `en/gdpr.html` ve root `gdpr.html` sayfalari eklendi.
+- Footer yasal linklerine `KVKK / GDPR` ve `GDPR` baglantilari eklendi.
 
 ## Isleyis Kurali
 
@@ -92,3 +98,5 @@ Root kisa yonlendirme sayfalari:
 3. Son olarak paket zip alinir.
 4. Zip acilip temel sayfalar tarayicida test edilir.
 5. `sitemap.xml`, `robots.txt` ve canonical linkleri kontrol edilir.
+
+- v6.3.13 ile header/footer sosyal medya ikonlari inline SVG yapisina alindi; ikonlar artik Bootstrap Icons fontu gec yuklense bile gorunur.
