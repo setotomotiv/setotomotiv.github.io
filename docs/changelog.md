@@ -1,11 +1,18 @@
 # 📄 Dosya Yolu: docs/changelog.md
 # 📌 Amac: proje paket degisikliklerini surum bazli kaydetmek
 # 📌 Modul - Markdown
-# Version: 1.0.3
-# Aciklama: Set Otomotiv statik site paketlerinin HTTPS guard dahil degisiklik ozetini guncel tutar
+# Version: 1.0.4
+# Aciklama: Set Otomotiv statik site paketlerinin harita ve genel degisiklik ozetini guncel tutar
 # Bagimli Oldugu Katman: View
 
 # Changelog
+
+## v6.3.17 - Google Maps Place Link Fix
+
+- Tum header, footer ve iletisim sayfasi harita linkleri kullanicinin verdigi Google Maps kisa konum linki ile esitlendi.
+- Iletisim sayfasi iframe haritasi metin bazli arama yerine koordinat bazli embed URL ile guncellendi.
+- TR ve EN iletisim iframe adreslerinde ilgili dil parametresi korundu.
+- AutoPartsStore JSON-LD alanlarina `hasMap` ve koordinatli `geo` bilgisi eklendi.
 
 ## v6.3.16 - HTTPS Guard Removed
 

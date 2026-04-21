@@ -6,8 +6,8 @@
 # 📄 Dosya Yolu: contact.html
 # 📌 Amac: statik kurumsal web sitesinin gorunum katmanini sunmak
 # 📌 Modul - HTML
-# Version: 2.0.0
-# Aciklama: Bootstrap 5 tabanlı modern kurumsal sayfa
+# Version: 2.0.1
+# Aciklama: Bootstrap 5 tabanli modern kurumsal sayfa ve guncel harita metadata yapisi ve guncel harita metadata yapisi
 # Bağımli Oldugu Katman: View
 -->
 <meta charset="utf-8"/>
@@ -53,6 +53,12 @@
   "image": "https://setotomotiv.com/assets/images/banner/banner1.webp",
   "telephone": "+90 346 221 92 87",
   "email": "info@setotomotiv.com",
+  "hasMap": "https://maps.app.goo.gl/PHePZ5uPcCaEHkg47",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 39.7469843,
+    "longitude": 37.0331699
+  },
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Sivas",
@@ -99,7 +105,7 @@
 <ul class="contact-list">
 <li><i class="bi bi-telephone"></i><div><strong data-content="panel.items.phoneLabel"></strong><br/><a href="tel:+903462219287">0346 221 92 87</a></div></li>
 <li><i class="bi bi-envelope"></i><div><strong data-content="panel.items.emailLabel"></strong><br/><a href="mailto:info@setotomotiv.com">info@setotomotiv.com</a></div></li>
-<li><i class="bi bi-geo-alt"></i><div><strong data-content="panel.items.addressLabel"></strong><br/><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Set%20Otomotiv%2C%20Yeni%20Ata%20Sanayi%2C%20Mehmet%20Akif%20Ersoy%20Mah.%2049-33%20Sok.%20No%3A33%2C%20Sivas" rel="noopener" target="_blank">Set Otomotiv<br/>Yeni Ata Sanayi, Mehmet Akif Ersoy Mah. 49-33 Sok. No:33</a></div></li>
+<li><i class="bi bi-geo-alt"></i><div><strong data-content="panel.items.addressLabel"></strong><br/><a href="https://maps.app.goo.gl/PHePZ5uPcCaEHkg47" rel="noopener" target="_blank">Set Otomotiv<br/>Yeni Ata Sanayi, Mehmet Akif Ersoy Mah. 49-33 Sok. No:33</a></div></li>
 <li><i class="bi bi-instagram"></i><div><strong data-content="panel.items.instagramLabel"></strong><br/><a href="https://www.instagram.com/setotomotiv/" rel="noopener" target="_blank">@setotomotiv</a></div></li>
 </ul>
 </div>
@@ -117,10 +123,10 @@
 <span class="contact-badge" data-content="map.badges.badge3"></span>
 </div>
 <div class="map-shell">
-<iframe allowfullscreen="" class="map-frame" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Set%20Otomotiv%2C%20Yeni%20Ata%20Sanayi%2C%20Mehmet%20Akif%20Ersoy%20Mah.%2049-33%20Sok.%20No%3A33%2C%20Sivas&amp;output=embed"></iframe>
+<iframe allowfullscreen="" class="map-frame" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=39.7469843,37.0331699&amp;hl=en&amp;z=17&amp;output=embed"></iframe>
 </div>
 <div class="d-flex flex-wrap gap-3 mt-4">
-<a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Set%20Otomotiv%2C%20Yeni%20Ata%20Sanayi%2C%20Mehmet%20Akif%20Ersoy%20Mah.%2049-33%20Sok.%20No%3A33%2C%20Sivas" rel="noopener" target="_blank" data-content="map.primary"></a>
+<a class="btn btn-primary" href="https://maps.app.goo.gl/PHePZ5uPcCaEHkg47" rel="noopener" target="_blank" data-content="map.primary"></a>
 <a class="btn btn-outline-dark" href="mailto:info@setotomotiv.com?subject=Set%20Otomotiv%20Bilgi%20Talebi" data-content="map.secondary"></a>
 </div>
 </div>

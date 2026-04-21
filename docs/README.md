@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: docs/README.md
 # 📌 Amac: proje dokumanlarinin merkez index dosyasi olmak
 # 📌 Modul - Markdown
-# Version: 1.3.4
-# Aciklama: Set Otomotiv statik site dokumanlarini guncel HTTPS yonlendirme kararina gore listeler
+# Version: 1.3.5
+# Aciklama: Set Otomotiv statik site dokumanlarini guncel paket durumuna gore listeler
 # Bagimli Oldugu Katman: View
 
 # Set Otomotiv Docs Index
@@ -103,3 +103,4 @@ Root kisa yonlendirme sayfalari:
 - v6.3.14 ile EN ana sayfa JSON, canonical/hreflang, dil secici, inline ikon ve SEO meta tutarlilik hatalari duzeltildi.
 
 - v6.3.16 ile sonsuz yonlendirme riskini onlemek icin `https-guard.js` kaldirildi; HTTPS kontrolu GitHub Pages `Enforce HTTPS` ve DNS seviyesinde yapilmalidir.
+- v6.3.17 ile Google Maps linkleri tek kisa konum linkine, iframe haritalari ise koordinat bazli embed yapisina esitlendi.
