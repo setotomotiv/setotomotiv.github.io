@@ -1,0 +1,60 @@
+{
+  "breadcrumb": {
+    "eyebrow": "Services / Solutions",
+    "title": "The right product with guided support.",
+    "desc": "Our service areas are built around speed, trust and technical guidance throughout the supply process."
+  },
+  "intro": {
+    "eyebrow": "Service scope",
+    "title": "We deliver solutions in four core areas.",
+    "desc": "In every service line, the priority is accurate product selection, process follow-up and guidance tailored to your needs."
+  },
+  "cards": [
+    {
+      "title": "Spare Parts",
+      "desc": "Reliable sourcing and accurate part matching for Peugeot and Citroen spare parts.",
+      "list": [
+        "Original and imported options",
+        "Part identification support",
+        "Supply process follow-up"
+      ]
+    },
+    {
+      "title": "Automotive Paints",
+      "desc": "Professional paint support with Axalta-based solutions and Standox / Duxone product lines.",
+      "list": [
+        "Repair products and support materials",
+        "Color bank support",
+        "Guidance aligned with the application process"
+      ]
+    },
+    {
+      "title": "Industrial Paints",
+      "desc": "Supported product groups for industrial, acrylic, epoxy and other use scenarios.",
+      "list": [
+        "Surface-compatible product selection",
+        "Corporate supply model",
+        "Long-term business partnership"
+      ]
+    },
+    {
+      "title": "Maintenance Products",
+      "desc": "Professional product groups for vehicle care, surface protection and application support.",
+      "list": [
+        "Wide range of care and cleaning products",
+        "Proper product selection and guidance",
+        "Application support"
+      ]
+    }
+  ],
+  "support": [
+    {
+      "title": "Planning and process management",
+      "text": "We improve efficiency by defining the right product, planning the supply flow and providing timely guidance."
+    },
+    {
+      "title": "Support and consulting",
+      "text": "We provide a communication-focused support structure for product use, application methods and technical requirements."
+    }
+  ]
+}

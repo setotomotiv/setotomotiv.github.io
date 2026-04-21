@@ -1,0 +1,38 @@
+{
+  "breadcrumb": {
+    "eyebrow": "Contact / Access",
+    "title": "Ready to reach us?",
+    "desc": "Fast contact channels with phone, email and location information."
+  },
+  "panel": {
+    "eyebrow": "Contact details",
+    "title": "We will get back to you as quickly as possible.",
+    "items": {
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "addressLabel": "Address",
+      "instagramLabel": "Instagram"
+    }
+  },
+  "map": {
+    "eyebrow": "Location",
+    "title": "Find us on the map.",
+    "desc": "If the embedded map does not open directly, you can use the button below to open the location in Google Maps.",
+    "primary": "Open in Maps",
+    "secondary": "Send Email",
+    "badges": {
+      "badge1": "Central Location",
+      "badge2": "Fast Access",
+      "badge3": "Reliable Support"
+    }
+  },
+  "quickQuote": {
+    "eyebrow": "Quick quote / support",
+    "title": "Contact us now for the right solution for your needs.",
+    "desc": "For spare parts, automotive paints, industrial paints and care products, you can quickly reach us by phone, email or WhatsApp.",
+    "primary": "Call Us",
+    "secondary": "Write on WhatsApp",
+    "tertiary": "Send Email",
+    "note": "Faster response is available during business hours."
+  }
+}

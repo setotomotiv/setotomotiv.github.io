@@ -1,0 +1,38 @@
+{
+  "breadcrumb": {
+    "eyebrow": "Iletisim / Ulasim",
+    "title": "Bize ulasmak icin hazirsiniz.",
+    "desc": "Telefon, e-posta ve konum bilgileri ile hizli iletisim kanallarimiz."
+  },
+  "panel": {
+    "eyebrow": "Iletisim bilgileri",
+    "title": "Size en hizli sekilde donelim.",
+    "items": {
+      "phoneLabel": "Telefon",
+      "emailLabel": "E-posta",
+      "addressLabel": "Adres",
+      "instagramLabel": "Instagram"
+    }
+  },
+  "map": {
+    "eyebrow": "Konum",
+    "title": "Harita uzerinden ulasin.",
+    "desc": "Harita dogrudan acilmiyorsa alttaki buton ile Google Maps uzerinde konumu acabilirsiniz.",
+    "primary": "Haritada Ac",
+    "secondary": "E-posta Gonder",
+    "badges": {
+      "badge1": "Merkezi Konum",
+      "badge2": "Hizli Ulasim",
+      "badge3": "Guvenilir Destek"
+    }
+  },
+  "quickQuote": {
+    "eyebrow": "Hizli teklif / destek",
+    "title": "Ihtiyaciniza uygun cozum icin bizimle hemen iletisime gecin.",
+    "desc": "Yedek parca, otomotiv boyalari, sanayi boyalari ve bakim urunleri icin telefon, e-posta veya WhatsApp uzerinden hizlica ulasabilirsiniz.",
+    "primary": "Bizi Arayin",
+    "secondary": "WhatsApp Yaz",
+    "tertiary": "E-posta Gonder",
+    "note": "Mesai saatlerinde daha hizli geri donus saglanir."
+  }
+}
