@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: docs/asset-guide.md
 # 📌 Amac: asset klasorunun temiz ve performansli kalmasini saglamak
 # 📌 Modul - Markdown
-# Version: 1.0.1
-# Aciklama: CSS, JS, gorsel, font ve katalog dosyalarinin nasil yonetilecegini tanimlar
+# Version: 1.0.2
+# Aciklama: CSS, JS, gorsel, font, katalog ve HTTPS guard temizlik kurallarini tanimlar
 # Bagimli Oldugu Katman: View
 
 # Asset Guide
@@ -13,7 +13,6 @@ CSS:
 - `assets/css/site.css`
 
 JS:
-- `assets/js/https-guard.js`
 - `assets/js/tracking-config.js`
 - `assets/js/include-loader.js`
 - `assets/js/content-loader.js`
@@ -22,6 +21,12 @@ JS:
 
 Images:
 - `assets/images/`
+
+## HTTPS Guard Kurali
+
+- JS tabanli `http -> https` veya `www -> non-www` yonlendirme dosyasi kullanilmaz.
+- HTTPS zorlamasi GitHub Pages `Enforce HTTPS`, DNS ve hosting seviyesi uzerinden yapilir.
+- Tarayici tarafinda protokol/host degistiren script eklenirse sonsuz yonlendirme riski dogar.
 
 ## Font Kurali
 

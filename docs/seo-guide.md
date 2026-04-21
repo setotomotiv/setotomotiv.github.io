@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: docs/seo-guide.md
 # 📌 Amac: sayfa bazli SEO kurallarini sabitlemek
 # 📌 Modul - Markdown
-# Version: 1.1.0
-# Aciklama: title, description, canonical, hreflang, sitemap ve sosyal meta yapisini tanimlar
+# Version: 1.1.1
+# Aciklama: title, description, canonical, hreflang, sitemap, HTTPS ve sosyal meta yapisini tanimlar
 # Bagimli Oldugu Katman: View
 
 # SEO Guide
@@ -86,10 +86,10 @@ Katalog PDF dosyalari eklendiginde:
 ## 10. HTTPS ve Kanonik Domain
 
 - GitHub Pages tarafinda `Enforce HTTPS` acik olmalidir.
-- Site icinde `https-guard.js` yedek yonlendirme olarak kullanilir.
-- Ana kanonik domain `https://setotomotiv.com` olarak korunur.
-- `www.setotomotiv.com` kullanimi kanonik domaine yonlendirilir.
-- Localhost test ortamlarinda HTTPS guard devre disi kalir.
+- Site icinde JS tabanli HTTPS guard kullanilmaz.
+- Ana kanonik domain meta ve sitemap tarafinda `https://setotomotiv.com` olarak korunur.
+- `www` veya `non-www` yonlendirme karari hosting/DNS tarafinda tek noktadan uygulanir.
+- GitHub Pages `Enforce HTTPS` acik olmali; tarayici tarafinda protokol/host degistiren script eklenmemelidir.
 
 ## 11. GDPR SEO Notu
 

@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: docs/release-checklist.md
 # 📌 Amac: yayin oncesi kalite kontrol adimlarini sabitlemek
 # 📌 Modul - Markdown
-# Version: 1.1.2
-# Aciklama: zip almadan once kontrol edilmesi gereken tasarim, icerik, SEO, adres, asset ve link maddelerini listeler
+# Version: 1.1.3
+# Aciklama: zip almadan once kontrol edilmesi gereken tasarim, icerik, SEO, adres, asset, HTTPS ve link maddelerini listeler
 # Bagimli Oldugu Katman: View
 
 # Release Checklist
@@ -39,8 +39,8 @@
 - [ ] WhatsApp linki dogru numaraya gidiyor mu
 - [ ] Sosyal medya linkleri kirik degil mi
 - [ ] Root `catalogs.html`, `kataloglar.html`, `katalog.html` yonlendirmeleri calisiyor mu
-- [ ] `http://setotomotiv.com` adresi `https://setotomotiv.com` adresine yonleniyor mu
-- [ ] `https://www.setotomotiv.com` adresi `https://setotomotiv.com` adresine yonleniyor mu
+- [ ] GitHub Pages `Enforce HTTPS` acik mi
+- [ ] DNS tarafinda tek kanonik domain karari net mi
 
 ## Teknik
 
@@ -50,7 +50,7 @@
 - [ ] `include-loader.js` hata vermiyor mu
 - [ ] `content-loader.js` JSON dosyalarini buluyor mu
 - [ ] `filter-system.js` marka ve katalog filtrelerini calistiriyor mu
-- [ ] `https-guard.js` local test ortaminda gereksiz yonlendirme yapmiyor mu
+- [ ] HTML dosyalarinda `https-guard.js` referansi yok mu
 - [ ] Cookie banner aciliyor mu
 - [ ] Cerez tercihleri linki calisiyor mu
 - [ ] KVKK / GDPR footer linki calisiyor mu
@@ -71,6 +71,7 @@
 - [ ] `assets/fonts/` klasoru pakette yok mu
 - [ ] Eski FontAwesome/Glyphicons/Linearicons dosyalari yok mu
 - [ ] Kullanilmayan Bootsnav/Owl/Magnific kalintilari yok mu
+- [ ] `assets/js/https-guard.js` pakette yok mu
 - [ ] Gorsel yollarinda kirik referans yok mu
 - [ ] Yeni PDF eklendiyse dosya adi ASCII ve bosluksuz mu
 

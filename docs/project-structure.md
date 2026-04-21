@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: docs/project-structure.md
 # 📌 Amac: proje klasor ve dosya gorevlerini netlestirmek
 # 📌 Modul - Markdown
-# Version: 1.0.0
-# Aciklama: Set Otomotiv statik sitesinin klasor yapisini ve sorumluluklarini aciklar
+# Version: 1.0.1
+# Aciklama: Set Otomotiv statik sitesinin klasor yapisini ve HTTPS guard kaldirma kararini aciklar
 # Bagimli Oldugu Katman: View
 
 # Project Structure
@@ -51,13 +51,16 @@ Metin, kart, filtre ve liste gibi dinamik alanlar JSON uzerinden yonetilir.
 ## Assets
 
 - `assets/css/site.css`: ana stil dosyasi
-- `assets/js/https-guard.js`: HTTP ve www kullanimini kanonik HTTPS adrese yonlendirir
 - `assets/js/include-loader.js`: partial include yukleyici
 - `assets/js/content-loader.js`: JSON icerik yukleyici
 - `assets/js/filter-system.js`: filtreli grid davranisi
 - `assets/js/site.js`: genel site davranislari
 - `assets/js/tracking-config.js`: opsiyonel tracking ayarlari
 - `assets/images/`: logo, banner ve sayfa gorselleri
+
+HTTPS yonlendirme notu:
+- `https-guard.js` dosyasi v6.3.16 ile kaldirilmistir.
+- HTTPS ve www/non-www karari hosting/GitHub Pages/DNS tarafinda yonetilir.
 
 ## Docs
 

@@ -1,11 +1,18 @@
 # 📄 Dosya Yolu: docs/changelog.md
 # 📌 Amac: proje paket degisikliklerini surum bazli kaydetmek
 # 📌 Modul - Markdown
-# Version: 1.0.2
-# Aciklama: Set Otomotiv statik site paketlerinin degisiklik ozetini guncel tutar
+# Version: 1.0.3
+# Aciklama: Set Otomotiv statik site paketlerinin HTTPS guard dahil degisiklik ozetini guncel tutar
 # Bagimli Oldugu Katman: View
 
 # Changelog
+
+## v6.3.16 - HTTPS Guard Removed
+
+- Sonsuz yonlendirme riskini onlemek icin `assets/js/https-guard.js` kaldirildi.
+- Tum HTML sayfalarindan `https-guard.js` script referanslari silindi.
+- HTTPS zorlamasi ve www/non-www karari hosting, DNS ve GitHub Pages `Enforce HTTPS` tarafina birakildi.
+- Docs icinde HTTPS guard referanslari guncellendi.
 
 ## v6.3.15 - Address and Google Maps Update
 

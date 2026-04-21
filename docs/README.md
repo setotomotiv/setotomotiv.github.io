@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: docs/README.md
 # 📌 Amac: proje dokumanlarinin merkez index dosyasi olmak
 # 📌 Modul - Markdown
-# Version: 1.3.3
-# Aciklama: Set Otomotiv statik site dokumanlarini guncel adres ve harita bilgisine gore listeler
+# Version: 1.3.4
+# Aciklama: Set Otomotiv statik site dokumanlarini guncel HTTPS yonlendirme kararina gore listeler
 # Bagimli Oldugu Katman: View
 
 # Set Otomotiv Docs Index
@@ -20,7 +20,6 @@ Kod degismeden once ilgili dokuman kontrol edilmeli ve gerekiyorsa guncellenmeli
 - Ana stil dosyasi: `assets/css/site.css`
 - Aktif JS dosyalari: `assets/js/*.js`
 - Yukari cik butonu: `assets/js/site.js` tarafindan olusturulur, scroll sonrasi gorunur
-- HTTPS guard: `assets/js/https-guard.js`
 - Font kullanimi: Google Fonts Inter CDN
 - Ikon kullanimi: Bootstrap Icons CDN
 - Yerel `assets/fonts/` klasoru artik yoktur
@@ -87,7 +86,7 @@ Root kisa yonlendirme sayfalari:
 - Kullanilmayan `assets/fonts/` ve eski template kalintilari temizlendi.
 - Chrome ve Firefox arasinda gorulebilen header/menu boyut kaymasi icin responsive kirilim duzeltildi.
 - Sabit WhatsApp hizli iletisim kutusu kaldirildi; yerine yukari cik butonu eklendi.
-- HTTP ve www kullanimini kanonik HTTPS adrese yonlendiren `https-guard.js` eklendi.
+- JS tabanli HTTPS guard kaldirildi; HTTPS yonlendirme hosting/GitHub Pages tarafina birakildi.
 - `tr/gdpr.html`, `en/gdpr.html` ve root `gdpr.html` sayfalari eklendi.
 - Footer yasal linklerine `KVKK / GDPR` ve `GDPR` baglantilari eklendi.
 
@@ -102,3 +101,5 @@ Root kisa yonlendirme sayfalari:
 - v6.3.13 ile header/footer sosyal medya ikonlari inline SVG yapisina alindi; ikonlar artik Bootstrap Icons fontu gec yuklense bile gorunur.
 
 - v6.3.14 ile EN ana sayfa JSON, canonical/hreflang, dil secici, inline ikon ve SEO meta tutarlilik hatalari duzeltildi.
+
+- v6.3.16 ile sonsuz yonlendirme riskini onlemek icin `https-guard.js` kaldirildi; HTTPS kontrolu GitHub Pages `Enforce HTTPS` ve DNS seviyesinde yapilmalidir.
