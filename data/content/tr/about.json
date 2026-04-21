@@ -1,0 +1,37 @@
+{
+  "breadcrumb": {
+    "eyebrow": "Kurumsal sayfa / Hakkımızda",
+    "title": "Koklu tecrübe, guvenilir hizmet anlayisi.",
+    "desc": "Set Otomotiv'in kurumsal yolculugu, yaklasimi ve temel degerleri."
+  },
+  "intro": {
+    "eyebrow": "1985'ten bugune",
+    "title": "Otomotiv sektorunde guven veren bir isim olma hedefiyle ilerliyoruz.",
+    "p1": "1985 yilinda Sivas'ta kurulan Set Otomotiv; otomotiv sektorunde teknoloji, yenilik ve surekli gelisim yaklasimi ile faaliyetlerine baslamistir. Kurulusundan bu yana profesyonellik, durustluk ve pazari gelistirme anlayisi ile istikrarli bir buyume gostermistir.",
+    "p2": "Sektordeki yeni talepleri yakindan takip eden yapisi sayesinde firma, idari ve mali birikimini dogru organizasyon ile birlestirerek alaninda saygin bir konuma ulasmistir.",
+    "list": [
+      "Kalitesi belgelenmis urun ve malzeme tercihine odaklanir.",
+      "Ustlendigi surecleri zamaninda ve beklenen kalite seviyesinin uzerinde tamamlamayi hedefler.",
+      "Deneyimli ekip ve kurumsal organizasyon ile sureklilik saglar."
+    ]
+  },
+  "values": [
+    {
+      "title": "Guven",
+      "text": "Uzun sureli is iliskilerinde netlik, guven ve sureklilik odakli yaklasim."
+    },
+    {
+      "title": "Organizasyon",
+      "text": "Dogru surec yonetimi, tedarik planlamasi ve zamaninda yonlendirme."
+    },
+    {
+      "title": "Kalite",
+      "text": "Kanitlanmis urunler ve profesyonel destekle kaliteli cozum anlayisi."
+    }
+  ],
+  "cta": {
+    "title": "Set Otomotiv ailesi olarak modern yonetim teknikleri ve guvenilir urun secimi ile ilerliyoruz.",
+    "desc": "Saygilarimizla, Temel Ozelma - Yonetim Kurulu Baskani",
+    "button": "Iletisime Gecin"
+  }
+}

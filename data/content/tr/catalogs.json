@@ -1,0 +1,94 @@
+{
+  "breadcrumb": {
+    "eyebrow": "Kataloglar",
+    "title": "Kataloglar",
+    "desc": "Yedek parca, boya ve bakim urun gruplari icin katalog taleplerinizi bu sayfadan yonlendirebilirsiniz."
+  },
+  "catalogs": {
+    "eyebrow": "Katalog Merkezi",
+    "title": "Urun ve marka kataloglari",
+    "desc": "Set Otomotiv urun gruplarina gore hazirlanan katalog basliklari. PDF dosyalari eklendiginde bu kartlar dogrudan indirme baglantisina cevrilebilir.",
+    "filters": [
+      {
+        "label": "Tum Kataloglar",
+        "value": "all"
+      },
+      {
+        "label": "Yedek Parca",
+        "value": "yedek-parca"
+      },
+      {
+        "label": "Boya",
+        "value": "boya"
+      },
+      {
+        "label": "Bakim",
+        "value": "bakim"
+      }
+    ],
+    "items": [
+      {
+        "title": "Peugeot Yedek Parca",
+        "desc": "Peugeot arac gruplari icin talep edilebilecek yedek parca katalog basligi.",
+        "badge": "Yedek Parca",
+        "category": "yedek-parca",
+        "icon": "bi bi-car-front",
+        "link": "contact.html",
+        "action": "Katalog Iste",
+        "list": [
+          "Model bazli urun sorgusu",
+          "Stok ve tedarik bilgisi",
+          "Hizli teklif yonlendirme"
+        ]
+      },
+      {
+        "title": "Citroen Yedek Parca",
+        "desc": "Citroen araclar icin parca gruplari ve tedarik talepleri.",
+        "badge": "Yedek Parca",
+        "category": "yedek-parca",
+        "icon": "bi bi-gear-wide-connected",
+        "link": "contact.html",
+        "action": "Katalog Iste",
+        "list": [
+          "Parca grubu yonlendirme",
+          "Uygun urun secimi",
+          "Teklif ve stok destegi"
+        ]
+      },
+      {
+        "title": "Otomotiv Boya",
+        "desc": "Axalta, Standox, Duxone ve ilgili oto boya cozumleri icin katalog basligi.",
+        "badge": "Boya",
+        "category": "boya",
+        "icon": "bi bi-palette2",
+        "link": "contact.html",
+        "action": "Katalog Iste",
+        "list": [
+          "Renk ve boya gruplari",
+          "Uygulama destek urunleri",
+          "Profesyonel boya cozumleri"
+        ]
+      },
+      {
+        "title": "Bakim Urunleri",
+        "desc": "Arac bakim, uygulama ve destek urunleri icin katalog talebi.",
+        "badge": "Bakim",
+        "category": "bakim",
+        "icon": "bi bi-stars",
+        "link": "contact.html",
+        "action": "Katalog Iste",
+        "list": [
+          "Bakim urun gruplari",
+          "Uygulama urunleri",
+          "Satis destek bilgisi"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Katalog Talebi",
+    "title": "Aradiginiz katalog listede yoksa bize ulasin.",
+    "desc": "Marka, model veya urun grubunu paylasin; size en dogru katalog ve teklif bilgisini iletelim.",
+    "button": "Iletisime Gec"
+  }
+}

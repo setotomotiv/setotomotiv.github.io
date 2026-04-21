@@ -1,0 +1,62 @@
+{
+  "brands": {
+    "title": "Markalarimiz",
+    "desc": "Guvenilir tedarik zincirimizde yer alan secili markalar ve cozum ortaklari.",
+    "filters": [
+      {"label": "Tum Markalar", "value": "all"},
+      {"label": "Yedek Parca", "value": "yedek-parca"},
+      {"label": "Otomotiv Boyalari", "value": "otomotiv-boyasi"},
+      {"label": "Bakim Urunleri", "value": "bakim-urunleri"}
+    ],
+    "items": [
+      {
+        "name": "Peugeot",
+        "text": "Peugeot arac gruplari icin odakli yedek parca ve urun tedarigi.",
+        "logo": "../assets/images/brands/peugeot.svg",
+        "logoAlt": "Peugeot logo",
+        "category": "yedek-parca",
+        "badge": "Yedek Parca"
+      },
+      {
+        "name": "Citroen",
+        "text": "Citroen araclar icin dogru parca ve surec odakli tedarik destegi.",
+        "logo": "../assets/images/brands/citroen.svg",
+        "logoAlt": "Citroen logo",
+        "category": "yedek-parca",
+        "badge": "Yedek Parca"
+      },
+      {
+        "name": "Axalta",
+        "text": "Profesyonel otomotiv boya cozumleri ve ilgili uygulama destegi.",
+        "logo": "../assets/images/brands/axalta.svg",
+        "logoAlt": "Axalta logo",
+        "category": "otomotiv-boyasi",
+        "badge": "Otomotiv Boyalari"
+      },
+      {
+        "name": "Standox",
+        "text": "Yuksek kalite refinishing ve renk cozumleri.",
+        "logo": "../assets/images/brands/standox.svg",
+        "logoAlt": "Standox logo",
+        "category": "otomotiv-boyasi",
+        "badge": "Otomotiv Boyalari"
+      },
+      {
+        "name": "Duxone",
+        "text": "Verimli, erisilebilir ve profesyonel boya urun gruplari.",
+        "logo": "../assets/images/brands/duxone.svg",
+        "logoAlt": "Duxone logo",
+        "category": "otomotiv-boyasi",
+        "badge": "Otomotiv Boyalari"
+      },
+      {
+        "name": "Bakim Urunleri",
+        "text": "Arac bakim ve uygulama destek urunlerinde secili cozumler.",
+        "logo": "../assets/images/brands/care.svg",
+        "logoAlt": "Care products logo",
+        "category": "bakim-urunleri",
+        "badge": "Bakim Urunleri"
+      }
+    ]
+  }
+}

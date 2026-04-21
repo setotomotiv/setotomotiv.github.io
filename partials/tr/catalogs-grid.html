@@ -1,0 +1,50 @@
+<!--
+# Dosya Yolu: partials/tr/catalogs-grid.html
+# Amac: kataloglar sayfasinda katalog kartlarini filtreli olarak sunmak
+# Modul - HTML
+# Version: 1.0.0
+# Aciklama: Katalog kartlari JSON icerigi ile dinamik doldurulur
+# Bagimli Oldugu Katman: View
+-->
+<section class="section-padding">
+  <div class="container container-xl">
+    <div class="section-title text-center mb-4 mx-auto">
+      <span class="eyebrow"><i class="bi bi-journal-richtext"></i> <span data-content="catalogs.eyebrow"></span></span>
+      <h2 data-content="catalogs.title"></h2>
+      <p class="text-secondary mb-0" data-content="catalogs.desc"></p>
+    </div>
+    <div class="filter-bar justify-content-center mb-4" data-filter-scope data-filter-target=".catalog-item" data-filter-buttons="catalogs.filters"></div>
+    <div class="row g-4" data-repeat="catalogs.items">
+      <template>
+        <div class="col-md-6 col-xl-3 catalog-item" data-filter-tags="{{category}}">
+          <div class="service-card h-100 d-flex flex-column">
+            <span class="brand-chip mb-3">{{badge}}</span>
+            <div class="icon-badge"><i class="{{icon}}"></i></div>
+            <h3>{{title}}</h3>
+            <p>{{desc}}</p>
+            <ul>{{LIST}}</ul>
+            <div class="mt-auto pt-3">
+              <a class="btn btn-outline-dark w-100" href="{{link}}">{{action}}</a>
+            </div>
+          </div>
+        </div>
+      </template>
+    </div>
+  </div>
+</section>
+<section class="section-padding pt-0">
+  <div class="container">
+    <div class="split-band">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <span class="eyebrow text-white-50"><i class="bi bi-whatsapp"></i> <span data-content="cta.eyebrow"></span></span>
+          <h2 class="mt-3 mb-3" data-content="cta.title"></h2>
+          <p class="mb-0" data-content="cta.desc"></p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a class="btn btn-light" href="contact.html" data-content="cta.button"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
