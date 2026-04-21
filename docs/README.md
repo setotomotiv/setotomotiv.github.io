@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: docs/README.md
 # 📌 Amac: proje dokumanlarinin merkez index dosyasi olmak
 # 📌 Modul - Markdown
-# Version: 1.3.5
+# Version: 1.3.6
 # Aciklama: Set Otomotiv statik site dokumanlarini guncel paket durumuna gore listeler
 # Bagimli Oldugu Katman: View
 
@@ -21,7 +21,8 @@ Kod degismeden once ilgili dokuman kontrol edilmeli ve gerekiyorsa guncellenmeli
 - Aktif JS dosyalari: `assets/js/*.js`
 - Yukari cik butonu: `assets/js/site.js` tarafindan olusturulur, scroll sonrasi gorunur
 - Font kullanimi: Google Fonts Inter CDN
-- Ikon kullanimi: Bootstrap Icons CDN
+- Genel ikon kullanimi: Bootstrap Icons CDN
+- Sosyal ikon kullanimi: `assets/icons/social/` altindaki yerel SVG dosyalari
 - Yerel `assets/fonts/` klasoru artik yoktur
 
 ## Aktif Sayfalar
@@ -77,6 +78,8 @@ Root kisa yonlendirme sayfalari:
 - `docs/changelog.md`: paket degisiklik ozeti
 
 ## Son Eklenenler
+
+- v6.3.18 ile sosyal medya ikonlari `assets/icons/social/` altina tasindi ve dosya tabanli kullanima gecildi.
 
 - Header menusu icine `Kataloglar / Catalogs` eklendi.
 - `tr/catalogs.html` ve `en/catalogs.html` sayfalari eklendi.

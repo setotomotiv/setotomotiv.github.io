@@ -1,11 +1,19 @@
 # 📄 Dosya Yolu: docs/changelog.md
 # 📌 Amac: proje paket degisikliklerini surum bazli kaydetmek
 # 📌 Modul - Markdown
-# Version: 1.0.4
+# Version: 1.0.5
 # Aciklama: Set Otomotiv statik site paketlerinin harita ve genel degisiklik ozetini guncel tutar
 # Bagimli Oldugu Katman: View
 
 # Changelog
+
+
+## v6.3.18 - Local Social Icon Files
+
+- Header ve footer sosyal medya ikonlari inline SVG yerine `assets/icons/social/` altindaki yerel SVG dosyalarina tasindi.
+- Instagram, Facebook, LinkedIn ve WhatsApp ikonlari artik CDN/font yuklenmesine bagli degildir.
+- Iletisim sayfasindaki Instagram ikonu ve katalog CTA WhatsApp ikonu yerel SVG dosyasina baglandi.
+- Sosyal ikon boyutlari `assets/css/site.css` icinde dosya tabanli ikonlar icin sabitlendi.
 
 ## v6.3.17 - Google Maps Place Link Fix
 
