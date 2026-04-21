@@ -19,6 +19,7 @@ Kod degismeden once ilgili dokuman kontrol edilmeli ve gerekiyorsa guncellenmeli
 - Ortak parca sistemi: `partials/<lang>/*.html`
 - Ana stil dosyasi: `assets/css/site.css`
 - Aktif JS dosyalari: `assets/js/*.js`
+- HTTPS guard: `assets/js/https-guard.js`
 - Font kullanimi: Google Fonts Inter CDN
 - Ikon kullanimi: Bootstrap Icons CDN
 - Yerel `assets/fonts/` klasoru artik yoktur
@@ -80,6 +81,9 @@ Root kisa yonlendirme sayfalari:
 - `partials/tr/catalogs-grid.html` ve `partials/en/catalogs-grid.html` eklendi.
 - Header adres linki Yandex Maps Set Otomotiv kurum sayfasina baglandi.
 - Kullanilmayan `assets/fonts/` ve eski template kalintilari temizlendi.
+- Chrome ve Firefox arasinda gorulebilen header/menu boyut kaymasi icin responsive kirilim duzeltildi.
+- Sabit WhatsApp hizli iletisim kutusu kaldirildi; yerine yukari cik butonu eklendi.
+- HTTP ve www kullanimini kanonik HTTPS adrese yonlendiren `https-guard.js` eklendi.
 
 ## Isleyis Kurali
 

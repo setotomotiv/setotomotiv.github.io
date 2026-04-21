@@ -82,3 +82,11 @@ Katalog PDF dosyalari eklendiginde:
 - PDF linkleri katalog sayfasindan verilmeli.
 - Gerekirse PDF dosyalari sitemap disinda birakilabilir.
 - PDF icin ayni icerigi HTML sayfada da ozetlemek SEO icin daha sagliklidir.
+
+## 10. HTTPS ve Kanonik Domain
+
+- GitHub Pages tarafinda `Enforce HTTPS` acik olmalidir.
+- Site icinde `https-guard.js` yedek yonlendirme olarak kullanilir.
+- Ana kanonik domain `https://setotomotiv.com` olarak korunur.
+- `www.setotomotiv.com` kullanimi kanonik domaine yonlendirilir.
+- Localhost test ortamlarinda HTTPS guard devre disi kalir.

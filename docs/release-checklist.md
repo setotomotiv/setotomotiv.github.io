@@ -17,6 +17,7 @@
 - [ ] Hizmet kartlari responsive duzende mi
 - [ ] Marka kartlari ve katalog kartlari mobilde tasma yapiyor mu
 - [ ] Contact quick quote bandi dogru gorunuyor mu
+- [ ] Yukari cik butonu scroll sonrasi gorunuyor ve sayfa basina donuyor mu
 
 ## Icerik
 
@@ -33,10 +34,12 @@
 
 - [ ] Header adres linki Yandex Set Otomotiv kurum sayfasina gidiyor mu
 - [ ] Telefon linki `tel:+903462219287` formatinda mi
-- [ ] Email linki `mailto:set_otomotiv@hotmail.com` formatinda mi
+- [ ] Email linki `mailto:info@setotomotiv.com` formatinda mi
 - [ ] WhatsApp linki dogru numaraya gidiyor mu
 - [ ] Sosyal medya linkleri kirik degil mi
 - [ ] Root `catalogs.html`, `kataloglar.html`, `katalog.html` yonlendirmeleri calisiyor mu
+- [ ] `http://setotomotiv.com` adresi `https://setotomotiv.com` adresine yonleniyor mu
+- [ ] `https://www.setotomotiv.com` adresi `https://setotomotiv.com` adresine yonleniyor mu
 
 ## Teknik
 
@@ -46,6 +49,7 @@
 - [ ] `include-loader.js` hata vermiyor mu
 - [ ] `content-loader.js` JSON dosyalarini buluyor mu
 - [ ] `filter-system.js` marka ve katalog filtrelerini calistiriyor mu
+- [ ] `https-guard.js` local test ortaminda gereksiz yonlendirme yapmiyor mu
 - [ ] Cookie banner aciliyor mu
 - [ ] Cerez tercihleri linki calisiyor mu
 

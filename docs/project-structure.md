@@ -48,6 +48,7 @@ Metin, kart, filtre ve liste gibi dinamik alanlar JSON uzerinden yonetilir.
 ## Assets
 
 - `assets/css/site.css`: ana stil dosyasi
+- `assets/js/https-guard.js`: HTTP ve www kullanimini kanonik HTTPS adrese yonlendirir
 - `assets/js/include-loader.js`: partial include yukleyici
 - `assets/js/content-loader.js`: JSON icerik yukleyici
 - `assets/js/filter-system.js`: filtreli grid davranisi

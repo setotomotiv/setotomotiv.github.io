@@ -13,6 +13,7 @@ CSS:
 - `assets/css/site.css`
 
 JS:
+- `assets/js/https-guard.js`
 - `assets/js/tracking-config.js`
 - `assets/js/include-loader.js`
 - `assets/js/content-loader.js`

@@ -7,6 +7,34 @@
 
 # Changelog
 
+## v6.3.10 - HTTPS Guard
+
+- `assets/js/https-guard.js` eklendi.
+- Canli domainde `http://setotomotiv.com` istekleri `https://setotomotiv.com` adresine yonlendirilir.
+- `www.setotomotiv.com` kullanimi kanonik `setotomotiv.com` adresine yonlendirilir.
+- Localhost ve yerel test ortamlarinda yonlendirme devre disi kalacak sekilde ayarlandi.
+- Tum ana HTML sayfalarina HTTPS guard scripti erken yuklenecek sekilde eklendi.
+
+## v6.3.9 - Back To Top Button
+
+- Sayfa altindaki sabit WhatsApp hizli iletisim kutusu kaldirildi.
+- Ortak `site.js` uzerinden otomatik olusan yukari cik butonu eklendi.
+- Yukari cik butonu TR/EN diline gore erisilebilir etiket alacak sekilde ayarlandi.
+- Mobil ve desktop sabit pozisyon stilleri `site.css` icinde guncellendi.
+
+## v6.3.8 - Chrome Layout Stability
+
+- Header menusu `navbar-expand-xl` kirilimina alindi.
+- Chrome tarafinda 992-1200 px araliginda menu sikismasi ve boyut kaymasi riski azaltildi.
+- Hero slider kontrol ve bilgi kartlarinin negatif tasma degerleri kaldirildi.
+- Yatay scroll olusturabilecek genislik tasmalari icin CSS koruma katmani eklendi.
+
+## v6.3.7 - Corporate Email Update
+
+- Eski Hotmail adresi tum gorunen alanlarda `info@setotomotiv.com` olarak guncellendi.
+- Header, footer, iletisim sayfasi, gizlilik sayfasi ve JSON-LD email alanlari kontrol edildi.
+- Release checklist email kontrolu yeni kurumsal adrese gore guncellendi.
+
 ## v6.3.6 - Docs Refresh
 
 - `docs/` klasoru guncel proje yapisina gore yenilendi.
