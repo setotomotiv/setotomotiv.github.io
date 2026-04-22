@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: assets/js/site.js
 # 📌 Amac: statik kurumsal sitede ortak arayuz davranislarini yonetmek
 # 📌 Modul - JavaScript
-# Version: 3.4.0
-# Aciklama: loader, aktif menu, sayfa bazli dil gecisi, slider, cerez, yukari tusu ve opsiyonel tracking davranislarini yonetir
+# Version: 3.6.0
+# Aciklama: loader, aktif menu, renk katalog, blog detay aktifligi, sayfa bazli dil gecisi, slider, cerez, yukari tusu, opsiyonel tracking ve kurumsal audio modul yuklemesini yonetir
 # Bagimli Oldugu Katman: View
 */
 (function () {
@@ -47,11 +47,16 @@
 
   function initActiveMenu() {
     var currentPath = window.location.pathname.split('/').pop() || 'index.html';
+    var catalogDetailPages = ['ral-catalog.html', 'ral-effect-catalog.html', 'pantone-catalog.html', 'ncs-catalog.html'];
+    var isBlogDetailPath = currentPath.indexOf('blog-') === 0;
     document.querySelectorAll('[data-nav-link]').forEach(function (link) {
       link.classList.remove('active');
       link.removeAttribute('aria-current');
       var target = link.getAttribute('href');
-      if ((currentPath === '' && target === 'index.html') || currentPath === target) {
+      var isCurrent = (currentPath === '' && target === 'index.html') || currentPath === target;
+      var isCatalogDetail = target === 'catalogs.html' && catalogDetailPages.indexOf(currentPath) !== -1;
+      var isBlogDetail = target === 'blog.html' && isBlogDetailPath;
+      if (isCurrent || isCatalogDetail || isBlogDetail) {
         link.classList.add('active');
         link.setAttribute('aria-current', 'page');
       }
@@ -536,6 +541,21 @@
     });
   }
 
+  function initCorporateAudioModule() {
+    var pageFile = getCurrentPageFile();
+    var allowedPages = ['index.html', 'about.html', 'blog.html', 'axalta-color-series.html'];
+    var isAxaltaBlog = /^blog-axalta-.*\.html$/.test(pageFile);
+    if (allowedPages.indexOf(pageFile) === -1 && !isAxaltaBlog) { return; }
+    var prefix = window.location.pathname.indexOf('/tr/') !== -1 || window.location.pathname.indexOf('/en/') !== -1 ? '../' : '';
+    var configUrl = prefix + 'data/audio/corporate-audio.json';
+    var scriptUrl = prefix + 'assets/js/corporate-audio.js';
+    if (document.querySelector('script[src="' + scriptUrl + '"]')) { return; }
+    fetch(configUrl, { credentials: 'same-origin' })
+      .then(function (response) { return response.ok ? response.json() : null; })
+      .then(function (config) { if (config) { window.SETOTOMOTIV_AUDIO = config; } injectScript(scriptUrl); })
+      .catch(function () { injectScript(scriptUrl); });
+  }
+
   function bootSharedUi() {
     initCurrentYear();
     initActiveMenu();
@@ -544,6 +564,7 @@
     initConsent();
     initBackToTop();
     initScrollReveal();
+    initCorporateAudioModule();
   }
 
   removeLoader();
