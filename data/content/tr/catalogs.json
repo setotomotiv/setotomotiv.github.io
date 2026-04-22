@@ -7,7 +7,7 @@
   "catalogs": {
     "eyebrow": "Katalog Merkezi",
     "title": "Urun ve marka kataloglari",
-    "desc": "Set Otomotiv urun gruplarina gore hazirlanan katalog basliklari. PDF dosyalari eklendiginde bu kartlar dogrudan indirme baglantisina cevrilebilir.",
+    "desc": "Set Otomotiv urun gruplari ve lokal renk kartelalari. RAL, RAL Effect E3, Pantone ve NCS uyum rehberleri dis siteye baglanmadan kendi sitemizden calisir.",
     "filters": [
       {
         "label": "Tum Kataloglar",
@@ -24,6 +24,10 @@
       {
         "label": "Bakim",
         "value": "bakim"
+      },
+      {
+        "label": "Renk Kartelasi",
+        "value": "renk-kartelasi"
       }
     ],
     "items": [
@@ -81,6 +85,62 @@
           "Bakim urun gruplari",
           "Uygulama urunleri",
           "Satis destek bilgisi"
+        ]
+      },
+      {
+        "title": "RAL Katalogu",
+        "desc": "Otomotiv boya ve endustriyel boya secimleri icin lokal RAL renk kartelasi.",
+        "badge": "Renk Kartelasi",
+        "category": "boya renk-kartelasi",
+        "icon": "bi bi-grid-3x3-gap",
+        "link": "ral-catalog.html",
+        "action": "Katalogu Ac",
+        "list": [
+          "213 RAL Classic rengi",
+          "Kod, HEX ve RGB bilgisi",
+          "Arama ve ton filtreleri"
+        ]
+      },
+      {
+        "title": "RAL Effect E3 Uyum Rehberi",
+        "desc": "RAL Effect E3 yapisindaki 420 solid ve 70 metallic ton icin 490 renkli lokal yaklasik dijital rehber.",
+        "badge": "Renk Kartelasi",
+        "category": "boya renk-kartelasi",
+        "icon": "bi bi-layers-fill",
+        "link": "ral-effect-catalog.html",
+        "action": "Rehberi Ac",
+        "list": [
+          "490 RAL Effect E3 tonu",
+          "420 solid + 70 metallic",
+          "Kod, HEX ve RGB bilgisi"
+        ]
+      },
+      {
+        "title": "Pantone Uyum Rehberi",
+        "desc": "Pantone uyumlu yaklasik renk secimleri icin 359 tonlu lokal renk rehberi.",
+        "badge": "Renk Kartelasi",
+        "category": "boya renk-kartelasi",
+        "icon": "bi bi-droplet-half",
+        "link": "pantone-catalog.html",
+        "action": "Rehberi Ac",
+        "list": [
+          "359 lokal renk tonu",
+          "Kod, HEX ve RGB bilgisi",
+          "Ton ailesi filtreleri"
+        ]
+      },
+      {
+        "title": "NCS Uyum Rehberi",
+        "desc": "NCS S renk kodlari icin 2353 tonlu lokal ve yaklasik dijital renk rehberi.",
+        "badge": "Renk Kartelasi",
+        "category": "boya renk-kartelasi",
+        "icon": "bi bi-palette",
+        "link": "ncs-catalog.html",
+        "action": "Rehberi Ac",
+        "list": [
+          "2353 lokal NCS S tonu",
+          "Kod, HEX ve RGB bilgisi",
+          "Arama ve ton filtreleri"
         ]
       }
     ]

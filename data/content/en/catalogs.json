@@ -7,7 +7,7 @@
   "catalogs": {
     "eyebrow": "Catalog Center",
     "title": "Product and brand catalogs",
-    "desc": "Catalog groups prepared for Set Otomotiv product categories. When PDF files are added, these cards can be converted into direct download links.",
+    "desc": "Set Otomotiv product groups and locally hosted color charts. RAL, RAL Effect E3, Pantone and NCS match guides run from this site without external dependencies.",
     "filters": [
       {
         "label": "All Catalogs",
@@ -24,6 +24,10 @@
       {
         "label": "Care",
         "value": "bakim"
+      },
+      {
+        "label": "Color Charts",
+        "value": "color-chart"
       }
     ],
     "items": [
@@ -81,6 +85,62 @@
           "Care product groups",
           "Application products",
           "Sales support info"
+        ]
+      },
+      {
+        "title": "RAL Catalog",
+        "desc": "A locally hosted RAL color chart for automotive and industrial paint selection.",
+        "badge": "Color Chart",
+        "category": "boya color-chart",
+        "icon": "bi bi-grid-3x3-gap",
+        "link": "ral-catalog.html",
+        "action": "Open Catalog",
+        "list": [
+          "213 RAL Classic colors",
+          "Code, HEX and RGB values",
+          "Search and range filters"
+        ]
+      },
+      {
+        "title": "RAL Effect E3 Match Guide",
+        "desc": "A 490-color local approximate digital guide for the RAL Effect E3 structure: 420 solid and 70 metallic tones.",
+        "badge": "Color Chart",
+        "category": "boya color-chart",
+        "icon": "bi bi-layers-fill",
+        "link": "ral-effect-catalog.html",
+        "action": "Open Guide",
+        "list": [
+          "490 RAL Effect E3 tones",
+          "420 solid + 70 metallic",
+          "Code, HEX and RGB values"
+        ]
+      },
+      {
+        "title": "Pantone Match Guide",
+        "desc": "A 359-tone local color guide for approximate Pantone-style matching.",
+        "badge": "Color Chart",
+        "category": "boya color-chart",
+        "icon": "bi bi-droplet-half",
+        "link": "pantone-catalog.html",
+        "action": "Open Guide",
+        "list": [
+          "359 local color tones",
+          "Code, HEX and RGB values",
+          "Tone family filters"
+        ]
+      },
+      {
+        "title": "NCS Match Guide",
+        "desc": "A 2353-tone local approximate digital color guide for NCS S color codes.",
+        "badge": "Color Chart",
+        "category": "boya color-chart",
+        "icon": "bi bi-palette",
+        "link": "ncs-catalog.html",
+        "action": "Open Guide",
+        "list": [
+          "2353 local NCS S tones",
+          "Code, HEX and RGB values",
+          "Search and tone filters"
         ]
       }
     ]

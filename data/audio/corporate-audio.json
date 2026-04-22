@@ -1,0 +1,39 @@
+{
+  "version": "1.6.0",
+  "enabled": true,
+  "defaultVolume": 0.18,
+  "storageKey": "set_otomotiv_corporate_audio_v3",
+  "source": "assets/audio/corporate-theme.wav",
+  "allowedPages": [
+    "index.html",
+    "about.html",
+    "blog.html",
+    "axalta-color-series.html"
+  ],
+  "allowedPatterns": [
+    "^blog-axalta-.*\\.html$"
+  ],
+  "labels": {
+    "tr": {
+      "on": "Acik",
+      "off": "Kapali",
+      "play": "Muzik ac",
+      "pause": "Muzik kapat",
+      "volume": "Ses seviyesi",
+      "blocked": "Tikla"
+    },
+    "en": {
+      "on": "On",
+      "off": "Off",
+      "play": "Turn music on",
+      "pause": "Turn music off",
+      "volume": "Volume",
+      "blocked": "Click"
+    }
+  },
+  "autoStart": true,
+  "autoStartDelayMs": 3000,
+  "mutedWarmup": true,
+  "resumePreviousChoice": true,
+  "mountSelectors": []
+}

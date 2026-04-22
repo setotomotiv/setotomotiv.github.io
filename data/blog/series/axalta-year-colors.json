@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "source_note": "Axalta official Color of the Year pages list 2015-2026 colors; this is a local summary index, not a paint formula.",
+  "items": [
+    {
+      "year": 2026,
+      "name": "Solar Boost",
+      "summary_tr": "sicak turuncu ve sampanya isiltili efekt",
+      "hex_preview": "#f28a2e",
+      "tr_url": "tr/blog-axalta-2026-solar-boost-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2026-solar-boost-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2026-solar-boost.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2026-solar-boost.svg"
+    },
+    {
+      "year": 2025,
+      "name": "Evergreen Sprint",
+      "summary_tr": "derin orman yesili ve motorsporu karakteri",
+      "hex_preview": "#0b4f3a",
+      "tr_url": "tr/blog-axalta-2025-evergreen-sprint-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2025-evergreen-sprint-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2025-evergreen-sprint.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2025-evergreen-sprint.svg"
+    },
+    {
+      "year": 2024,
+      "name": "Starry Night",
+      "summary_tr": "mavi ve gumus efektli cagdas siyah",
+      "hex_preview": "#111827",
+      "tr_url": "tr/blog-axalta-2024-starry-night-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2024-starry-night-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2024-starry-night.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2024-starry-night.svg"
+    },
+    {
+      "year": 2023,
+      "name": "Techno Blue",
+      "summary_tr": "dijital etki tasiyan modern mavi",
+      "hex_preview": "#1667b7",
+      "tr_url": "tr/blog-axalta-2023-techno-blue-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2023-techno-blue-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2023-techno-blue.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2023-techno-blue.svg"
+    },
+    {
+      "year": 2022,
+      "name": "Royal Magenta",
+      "summary_tr": "lux magenta ve surdurulebilirlik vurgusu",
+      "hex_preview": "#8c1d58",
+      "tr_url": "tr/blog-axalta-2022-royal-magenta-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2022-royal-magenta-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2022-royal-magenta.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2022-royal-magenta.svg"
+    },
+    {
+      "year": 2021,
+      "name": "ElectroLight",
+      "summary_tr": "enerjik yesil-sari karakter",
+      "hex_preview": "#c7db37",
+      "tr_url": "tr/blog-axalta-2021-electrolight-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2021-electrolight-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2021-electrolight.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2021-electrolight.svg"
+    },
+    {
+      "year": 2020,
+      "name": "Sea Glass",
+      "summary_tr": "sakin ama ozel yesil-mavi ton",
+      "hex_preview": "#76a9a4",
+      "tr_url": "tr/blog-axalta-2020-sea-glass-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2020-sea-glass-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2020-sea-glass.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2020-sea-glass.svg"
+    },
+    {
+      "year": 2019,
+      "name": "Sahara",
+      "summary_tr": "sicak altin bronz ton",
+      "hex_preview": "#b58a4a",
+      "tr_url": "tr/blog-axalta-2019-sahara-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2019-sahara-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2019-sahara.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2019-sahara.svg"
+    },
+    {
+      "year": 2018,
+      "name": "StarLite",
+      "summary_tr": "inci efektli acik ve yansitici ton",
+      "hex_preview": "#e8e4d8",
+      "tr_url": "tr/blog-axalta-2018-starlite-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2018-starlite-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2018-starlite.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2018-starlite.svg"
+    },
+    {
+      "year": 2017,
+      "name": "Gallant Gray",
+      "summary_tr": "mavi ve gumus pul efektli sofistike gri",
+      "hex_preview": "#59616c",
+      "tr_url": "tr/blog-axalta-2017-gallant-gray-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2017-gallant-gray-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2017-gallant-gray.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2017-gallant-gray.svg"
+    },
+    {
+      "year": 2016,
+      "name": "Brilliant Blue",
+      "summary_tr": "turkuaz vurgulu canli orta mavi",
+      "hex_preview": "#1464a8",
+      "tr_url": "tr/blog-axalta-2016-brilliant-blue-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2016-brilliant-blue-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2016-brilliant-blue.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2016-brilliant-blue.svg"
+    },
+    {
+      "year": 2015,
+      "name": "Radiant Red",
+      "summary_tr": "yuksek kroma kirmizi ve isilti etkisi",
+      "hex_preview": "#c92127",
+      "tr_url": "tr/blog-axalta-2015-radiant-red-otomotiv-rengi.html",
+      "en_url": "en/blog-axalta-2015-radiant-red-otomotiv-rengi.html",
+      "cover_image": "/assets/images/blog/axalta/2015-radiant-red.svg",
+      "thumbnail_image": "/assets/images/blog/axalta/2015-radiant-red.svg"
+    }
+  ]
+}
