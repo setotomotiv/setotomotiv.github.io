@@ -1403,3 +1403,82 @@ body{
   .corporate-audio-volume input { width: 82px; }
 }
 
+
+/* v6.3.16 mobile header location bar stability fix */
+@media (max-width:991.98px){
+  .site-header{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:auto;
+    width:100%;
+    z-index:1045;
+  }
+  .mobile-location-bar{
+    display:block;
+    width:100%;
+    min-height:38px;
+    background:linear-gradient(135deg,#07111f 0%,#102345 55%,#0b5f86 100%);
+    border-bottom:1px solid rgba(255,255,255,.12);
+  }
+  .mobile-location-bar .container,
+  .mobile-location-bar .container-xl{
+    min-width:0;
+    max-width:100%;
+    padding-right:12px;
+    padding-left:12px;
+  }
+  .mobile-location-link{
+    min-height:38px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    width:100%;
+    max-width:100%;
+    color:#fff!important;
+    font-size:.8rem;
+    font-weight:800;
+    line-height:1.15;
+    text-align:center;
+    text-decoration:none!important;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .mobile-location-link span{
+    display:block;
+    min-width:0;
+    max-width:calc(100vw - 54px);
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .mobile-location-link .meta-icon{
+    width:16px;
+    height:16px;
+    flex:0 0 16px;
+  }
+  .site-navbar{
+    width:100%;
+    min-height:66px;
+    padding:9px 0;
+  }
+  .hero{
+    padding-top:142px;
+  }
+  .breadcrumb-band{
+    padding-top:152px;
+  }
+}
+@media (max-width:360px){
+  .mobile-location-link{
+    font-size:.74rem;
+    gap:5px;
+  }
+  .mobile-location-link span{
+    max-width:calc(100vw - 46px);
+  }
+}
