@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Automotive paint preparation</title>
+<desc id="desc">Illustration showing cleaning, sanding, priming and final inspection steps.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="55%" stop-color="#dbeafe"/>
+    <stop offset="100%" stop-color="#f8fafc"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#f8fafc"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.14"/>
+  </filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<g opacity="0.55">
+  <circle cx="1450" cy="150" r="170" fill="#bfdbfe"/>
+  <circle cx="180" cy="760" r="220" fill="#e0f2fe"/>
+</g>
+<g filter="url(#shadow)">
+  <rect x="70" y="68" width="1460" height="764" rx="34" fill="url(#panel)"/>
+</g>
+<text x="120" y="154" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#2563eb">SET OTOMOTIV BLOG</text>
+<text x="120" y="214" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="900" fill="#0f172a">Automotive Paint Preparation</text>
+<text x="120" y="260" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" fill="#475569">Correct substrate preparation supports a cleaner finish, stronger adhesion and longer durability.</text>
+
+<g>
+  <rect x="110" y="330" width="900" height="420" rx="28" fill="#0f172a" opacity="0.03"/>
+  <rect x="130" y="350" width="860" height="380" rx="28" fill="#ffffff" stroke="#dbeafe" stroke-width="2"/>
+  <text x="170" y="405" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900" fill="#0f172a">Preparation Flow</text>
+
+  <g transform="translate(170 455)">
+    <circle cx="0" cy="0" r="28" fill="#2563eb"/>
+    <text x="0" y="9" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#fff">1</text>
+    <text x="50" y="-6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0f172a">Cleaning and degreasing</text>
+    <text x="50" y="24" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569">Do not leave silicone, dust or dirt on the panel.</text>
+  </g>
+  <g transform="translate(170 545)">
+    <circle cx="0" cy="0" r="28" fill="#2563eb"/>
+    <text x="0" y="9" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#fff">2</text>
+    <text x="50" y="-6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0f172a">Rust and old layer inspection</text>
+    <text x="50" y="24" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569">Open weak areas back to a stable substrate.</text>
+  </g>
+  <g transform="translate(170 635)">
+    <circle cx="0" cy="0" r="28" fill="#2563eb"/>
+    <text x="0" y="9" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#fff">3</text>
+    <text x="50" y="-6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0f172a">Correct sanding and primer</text>
+    <text x="50" y="24" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569">Select grit and primer according to the surface.</text>
+  </g>
+
+  <g transform="translate(570 455)">
+    <circle cx="0" cy="0" r="28" fill="#06b6d4"/>
+    <text x="0" y="9" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#fff">4</text>
+    <text x="50" y="-6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0f172a">Filler and filler primer</text>
+    <text x="50" y="24" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569">Apply thin layers and respect curing time.</text>
+  </g>
+  <g transform="translate(570 545)">
+    <circle cx="0" cy="0" r="28" fill="#06b6d4"/>
+    <text x="0" y="9" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#fff">5</text>
+    <text x="50" y="-6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0f172a">Dust removal and final check</text>
+    <text x="50" y="24" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569">Recheck masking and feathered edges.</text>
+  </g>
+  <g transform="translate(570 635)">
+    <circle cx="0" cy="0" r="28" fill="#06b6d4"/>
+    <text x="0" y="9" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#fff">6</text>
+    <text x="50" y="-6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0f172a">Pre-paint flash off</text>
+    <text x="50" y="24" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569">Apply flash off time according to the technical sheet.</text>
+  </g>
+</g>
+
+<g transform="translate(1070 330)">
+  <rect x="0" y="0" width="370" height="420" rx="28" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="36" y="54" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900" fill="#0f172a">Why It Matters</text>
+  <g transform="translate(36 96)">
+    <rect x="0" y="0" width="298" height="76" rx="22" fill="#fff"/>
+    <circle cx="38" cy="38" r="22" fill="#dbeafe"/>
+    <text x="38" y="47" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900" fill="#2563eb">+</text>
+    <text x="76" y="34" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#0f172a">Cleaner surface</text>
+    <text x="76" y="58" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">Lower risk of marks, waves and visible lines.</text>
+  </g>
+  <g transform="translate(36 188)">
+    <rect x="0" y="0" width="298" height="76" rx="22" fill="#fff"/>
+    <circle cx="38" cy="38" r="22" fill="#d1fae5"/>
+    <path d="M29 38l6 6 12-14" fill="none" stroke="#059669" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="76" y="34" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#0f172a">Stronger adhesion</text>
+    <text x="76" y="58" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">Primer and topcoat hold more securely.</text>
+  </g>
+  <g transform="translate(36 280)">
+    <rect x="0" y="0" width="298" height="102" rx="22" fill="#fff"/>
+    <circle cx="38" cy="38" r="22" fill="#fee2e2"/>
+    <path d="M31 31l14 14M45 31L31 45" fill="none" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <text x="76" y="34" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#0f172a">Defects reduced</text>
+    <text x="76" y="58" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">Blistering, pinholes, edge mapping,</text>
+    <text x="76" y="80" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">rust return and colour bleeding.</text>
+  </g>
+</g>
+</svg>

@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: assets/js/site.js
 # 📌 Amac: statik kurumsal sitede ortak arayuz davranislarini yonetmek
 # 📌 Modul - JavaScript
-# Version: 3.6.0
-# Aciklama: loader, aktif menu, renk katalog, blog detay aktifligi, sayfa bazli dil gecisi, slider, cerez, yukari tusu, opsiyonel tracking ve kurumsal audio modul yuklemesini yonetir
+# Version: 3.6.1
+# Aciklama: loader, aktif menu, renk katalog, blog detay aktifligi, sayfa bazli dil gecisi, slider, cerez, yukari tusu, opsiyonel tracking ve mobil konum aksiyonu, opsiyonel tracking ve kurumsal audio modul yuklemesini yonetir
 # Bagimli Oldugu Katman: View
 */
 (function () {
@@ -460,10 +460,33 @@
 
     if (buttonNode.dataset.bound !== 'true') {
       buttonNode.dataset.bound = 'true';
-      buttonNode.addEventListener('click', function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+      buttonNode.addEventListener('click', function (event) {
+        event.preventDefault();
+        var scrollTarget = document.scrollingElement || document.documentElement || document.body;
+
+        if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+          scrollTarget.scrollTop = 0;
+          window.scrollTo(0, 0);
+          syncVisibility();
+          return;
+        }
+
+        try {
+          window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+        } catch (error) {
+          window.scrollTo(0, 0);
+        }
+
+        window.setTimeout(function () {
+          if (scrollTarget.scrollTop > 0) {
+            scrollTarget.scrollTop = 0;
+            window.scrollTo(0, 0);
+          }
+          syncVisibility();
+        }, 420);
       });
       window.addEventListener('scroll', syncVisibility, { passive: true });
+      window.addEventListener('resize', syncVisibility, { passive: true });
     }
 
     syncVisibility();
