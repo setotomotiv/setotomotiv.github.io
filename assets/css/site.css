@@ -2,10 +2,16 @@
 # 📄 Dosya Yolu: assets/css/site.css
 # 📌 Amac: statik kurumsal sitenin modern tema ve bilesen stillerini yonetmek
 # 📌 Modul - CSS
-# Version: 2.3.1
-# Aciklama: Bootstrap 5 tabanli kurumsal tasarim, yerel sosyal ikonlar, renk kataloglari, blog kartlari, yukari tusu, mobil konum bari ve responsive davranis katmani
+# Version: 2.3.6
+# Aciklama: Bootstrap 5 tabanli kurumsal tasarim ve yerel Roboto TTF font kullanimi
 # Bagimli Oldugu Katman: View
 */
+
+/* Local font setup: Roboto TTF files are loaded from assets/fonts/roboto/. No CDN request is made. */
+@font-face{font-family:"Roboto";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/roboto/Roboto-Regular.ttf") format("truetype"),local("Roboto"),local("Roboto Regular")}
+@font-face{font-family:"Roboto";font-style:normal;font-weight:500;font-display:swap;src:url("../fonts/roboto/Roboto-Medium.ttf") format("truetype"),local("Roboto Medium")}
+@font-face{font-family:"Roboto";font-style:normal;font-weight:700;font-display:swap;src:url("../fonts/roboto/Roboto-Bold.ttf") format("truetype"),local("Roboto Bold")}
+@font-face{font-family:"Roboto";font-style:normal;font-weight:900;font-display:swap;src:url("../fonts/roboto/Roboto-Black.ttf") format("truetype"),local("Roboto Black")}
 :root{
   --site-bg:#f6f8fc;
   --site-surface:#ffffff;
@@ -24,7 +30,7 @@
 }
 html{scroll-behavior:smooth}
 body{
-  font-family:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-family:"Roboto",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   color:var(--site-text);
   background:linear-gradient(180deg,#f8fbff 0%,#f6f8fc 100%);
 }
@@ -453,7 +459,7 @@ body.is-loading{overflow:hidden}
 
 
 /* v2.2.0 typography and seo support */
-body{font-feature-settings:"liga" 1,"kern" 1;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;moz-osx-font-smoothing:grayscale}
+body{font-feature-settings:"liga" 1,"kern" 1;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .site-navbar .brand-title{font-size:1.28rem!important;font-weight:900;letter-spacing:-.04em}
 .site-navbar .brand-subtitle{font-size:1rem!important}
 @media (max-width:991.98px){.site-navbar .brand-title{font-size:1.16rem!important}.site-navbar .brand-subtitle{font-size:.9rem!important;display:block}}
