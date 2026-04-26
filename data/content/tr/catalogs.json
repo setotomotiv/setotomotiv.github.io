@@ -2,19 +2,19 @@
   "breadcrumb": {
     "eyebrow": "Kataloglar",
     "title": "Kataloglar",
-    "desc": "Yedek parca, boya ve bakim urun gruplari icin katalog taleplerinizi bu sayfadan yonlendirebilirsiniz."
+    "desc": "Yedek parça, boya ve bakım ürün grupları için katalog taleplerinizi bu sayfadan yönlendirebilirsiniz."
   },
   "catalogs": {
     "eyebrow": "Katalog Merkezi",
-    "title": "Urun ve marka kataloglari",
-    "desc": "Set Otomotiv urun gruplari ve lokal renk kartelalari. RAL, RAL Effect E3, Pantone ve NCS uyum rehberleri dis siteye baglanmadan kendi sitemizden calisir.",
+    "title": "Ürün ve marka katalogları",
+    "desc": "Set Otomotiv ürün grupları ve lokal renk kartelaları. RAL, RAL Effect E3, Pantone ve NCS uyum rehberleri dış siteye bağlanmadan kendi sitemizden çalışır.",
     "filters": [
       {
-        "label": "Tum Kataloglar",
+        "label": "Tüm Kataloglar",
         "value": "all"
       },
       {
-        "label": "Yedek Parca",
+        "label": "Yedek Parça",
         "value": "yedek-parca"
       },
       {
@@ -22,7 +22,7 @@
         "value": "boya"
       },
       {
-        "label": "Bakim",
+        "label": "Bakım",
         "value": "bakim"
       },
       {
@@ -32,64 +32,64 @@
     ],
     "items": [
       {
-        "title": "Peugeot Yedek Parca",
-        "desc": "Peugeot arac gruplari icin talep edilebilecek yedek parca katalog basligi.",
-        "badge": "Yedek Parca",
+        "title": "Peugeot Yedek Parça",
+        "desc": "Peugeot araç grupları için talep edilebilecek yedek parça katalog başlığı.",
+        "badge": "Yedek Parça",
         "category": "yedek-parca",
         "icon": "bi bi-car-front",
         "link": "contact.html",
         "action": "Katalog Iste",
         "list": [
-          "Model bazli urun sorgusu",
+          "Model bazli ürün sorgusu",
           "Stok ve tedarik bilgisi",
-          "Hizli teklif yonlendirme"
+          "Hızlı teklif yönlendirme"
         ]
       },
       {
-        "title": "Citroen Yedek Parca",
-        "desc": "Citroen araclar icin parca gruplari ve tedarik talepleri.",
-        "badge": "Yedek Parca",
+        "title": "Citroen Yedek Parça",
+        "desc": "Citroen araçlar için parça grupları ve tedarik talepleri.",
+        "badge": "Yedek Parça",
         "category": "yedek-parca",
         "icon": "bi bi-gear-wide-connected",
         "link": "contact.html",
         "action": "Katalog Iste",
         "list": [
-          "Parca grubu yonlendirme",
-          "Uygun urun secimi",
-          "Teklif ve stok destegi"
+          "Parça grubu yönlendirme",
+          "Uygun ürün seçimi",
+          "Teklif ve stok desteği"
         ]
       },
       {
         "title": "Otomotiv Boya",
-        "desc": "Axalta, Standox, Duxone ve ilgili oto boya cozumleri icin katalog basligi.",
+        "desc": "Axalta, Standox, Duxöne ve ilgili oto boya çözümleri için katalog başlığı.",
         "badge": "Boya",
         "category": "boya",
         "icon": "bi bi-palette2",
         "link": "contact.html",
         "action": "Katalog Iste",
         "list": [
-          "Renk ve boya gruplari",
-          "Uygulama destek urunleri",
-          "Profesyonel boya cozumleri"
+          "Renk ve boya grupları",
+          "Uygulama destek ürünleri",
+          "Profesyonel boya çözümleri"
         ]
       },
       {
-        "title": "Bakim Urunleri",
-        "desc": "Arac bakim, uygulama ve destek urunleri icin katalog talebi.",
-        "badge": "Bakim",
+        "title": "Bakım Ürünleri",
+        "desc": "Araç bakım, uygulama ve destek ürünleri için katalog talebi.",
+        "badge": "Bakım",
         "category": "bakim",
         "icon": "bi bi-stars",
         "link": "contact.html",
         "action": "Katalog Iste",
         "list": [
-          "Bakim urun gruplari",
-          "Uygulama urunleri",
-          "Satis destek bilgisi"
+          "Bakım ürün grupları",
+          "Uygulama ürünleri",
+          "Satış destek bilgisi"
         ]
       },
       {
         "title": "RAL Katalogu",
-        "desc": "Otomotiv boya ve endustriyel boya secimleri icin lokal RAL renk kartelasi.",
+        "desc": "Otomotiv boya ve endüstriyel boya seçimleri için lokal RAL renk kartelasi.",
         "badge": "Renk Kartelasi",
         "category": "boya renk-kartelasi",
         "icon": "bi bi-grid-3x3-gap",
@@ -103,7 +103,7 @@
       },
       {
         "title": "RAL Effect E3 Uyum Rehberi",
-        "desc": "RAL Effect E3 yapisindaki 420 solid ve 70 metallic ton icin 490 renkli lokal yaklasik dijital rehber.",
+        "desc": "RAL Effect E3 yapısındaki 420 solid ve 70 metallic ton için 490 renkli lokal yaklasik dijital rehber.",
         "badge": "Renk Kartelasi",
         "category": "boya renk-kartelasi",
         "icon": "bi bi-layers-fill",
@@ -117,7 +117,7 @@
       },
       {
         "title": "Pantone Uyum Rehberi",
-        "desc": "Pantone uyumlu yaklasik renk secimleri icin 359 tonlu lokal renk rehberi.",
+        "desc": "Pantone uyumlu yaklasik renk seçimleri için 359 tonlu lokal renk rehberi.",
         "badge": "Renk Kartelasi",
         "category": "boya renk-kartelasi",
         "icon": "bi bi-droplet-half",
@@ -131,7 +131,7 @@
       },
       {
         "title": "NCS Uyum Rehberi",
-        "desc": "NCS S renk kodlari icin 2353 tonlu lokal ve yaklasik dijital renk rehberi.",
+        "desc": "NCS S renk kodlari için 2353 tonlu lokal ve yaklasik dijital renk rehberi.",
         "badge": "Renk Kartelasi",
         "category": "boya renk-kartelasi",
         "icon": "bi bi-palette",
@@ -147,8 +147,8 @@
   },
   "cta": {
     "eyebrow": "Katalog Talebi",
-    "title": "Aradiginiz katalog listede yoksa bize ulasin.",
-    "desc": "Marka, model veya urun grubunu paylasin; size en dogru katalog ve teklif bilgisini iletelim.",
-    "button": "Iletisime Gec"
+    "title": "Aradığınız katalog listede yoksa bize ulaşın.",
+    "desc": "Marka, model veya ürün grubunu paylasin; size en doğru katalog ve teklif bilgisini iletelim.",
+    "button": "İletişime Geç"
   }
 }

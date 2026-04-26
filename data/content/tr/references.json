@@ -1,41 +1,41 @@
 {
   "breadcrumb": {
-    "eyebrow": "Referanslar / Is birligi",
-    "title": "Guven verdigimiz alanlari ve calisma modelimizi tek bakista inceleyin.",
-    "desc": "Marka, hizmet ve uygulama odakli is birliklerimizi daha okunur bir yapida sunuyoruz."
+    "eyebrow": "Referanslar / İş birligi",
+    "title": "Güven verdigimiz alanlari ve çalışma modelimizi tek bakista inceleyin.",
+    "desc": "Marka, hizmet ve uygulama odaklı iş birliklerimizi daha okunur bir yapida sunuyoruz."
   },
   "intro": {
-    "eyebrow": "Secili referans alanlari",
-    "title": "Referans degeri, dogru urun ve duzenli surec yonetimi ile olusur.",
-    "desc": "Asagidaki kartlar, Set Otomotiv'in odaklandigi hizmet basliklarini ve is birligi kategorilerini ozetler."
+    "eyebrow": "Seçili referans alanlari",
+    "title": "Referans değeri, doğru ürün ve duzenli süreç yönetimi ile olusur.",
+    "desc": "Aşağıdaki kartlar, Set Otomotiv'in odaklandığı hizmet başlıklarını ve iş birligi kategorilerini özetler."
   },
   "filters": [
     {
-      "label": "Tum Alanlar",
+      "label": "Tüm Alanlar",
       "value": "all"
     },
     {
-      "label": "Yedek Parca",
+      "label": "Yedek Parça",
       "value": "yedek-parca"
     },
     {
-      "label": "Otomotiv Boyalari",
+      "label": "Otomotiv Boyaları",
       "value": "otomotiv-boyasi"
     },
     {
-      "label": "Sanayi Boyalari",
+      "label": "Sanayi Boyaları",
       "value": "sanayi-boyasi"
     },
     {
-      "label": "Bakim Urunleri",
+      "label": "Bakım Ürünleri",
       "value": "bakim-urunleri"
     }
   ],
   "items": [
     {
-      "title": "Peugeot ve Citroen Yedek Parca",
-      "text": "Model odakli parca tespiti, surec takibi ve dogru urun yonlendirmesi ile calisiyoruz.",
-      "badge": "Yedek Parca",
+      "title": "Peugeot ve Citroen Yedek Parça",
+      "text": "Model odaklı parça tespiti, süreç takibi ve doğru ürün yönlendirmesi ile çalışıyoruz.",
+      "badge": "Yedek Parça",
       "category": "yedek-parca",
       "icon": "bi bi-gear-wide-connected",
       "logo": "../assets/images/brands/peugeot.svg",
@@ -44,55 +44,55 @@
       "logoSecondaryAlt": "Citroen logo"
     },
     {
-      "title": "Axalta ve refinishing cozumleri",
-      "text": "Renk bankasi, urun eslestirme ve uygulama surecinde destek veren boya cozumleri sunuyoruz.",
-      "badge": "Otomotiv Boyalari",
+      "title": "Axalta ve refinishing çözümleri",
+      "text": "Renk bankasi, ürün eslestirme ve uygulama sürecinde destek veren boya çözümleri sunuyoruz.",
+      "badge": "Otomotiv Boyaları",
       "category": "otomotiv-boyasi",
       "icon": "bi bi-palette2",
       "logo": "../assets/images/brands/axalta.svg",
       "logoAlt": "Axalta logo"
     },
     {
-      "title": "Standox ve Duxone urun gruplari",
-      "text": "Profesyonel tamir boya ekosistemine uygun urun secimi ve surec gorunurlugu sagliyoruz.",
-      "badge": "Otomotiv Boyalari",
+      "title": "Standox ve Duxöne ürün grupları",
+      "text": "Profesyonel tamir boya ekosistemine uygun ürün seçimi ve süreç görünürlugu sagliyoruz.",
+      "badge": "Otomotiv Boyaları",
       "category": "otomotiv-boyasi",
       "icon": "bi bi-brush",
       "logo": "../assets/images/brands/standox.svg",
       "logoAlt": "Standox logo",
       "logoSecondary": "../assets/images/brands/duxone.svg",
-      "logoSecondaryAlt": "Duxone logo"
+      "logoSecondaryAlt": "Duxöne logo"
     },
     {
-      "title": "Endustriyel ve sanayi boya cozumleri",
-      "text": "Akrilik, epoksi ve farkli yuzey gruplari icin ihtiyaca uygun urun planlamasi yapiyoruz.",
-      "badge": "Sanayi Boyalari",
+      "title": "Endustriyel ve sanayi boya çözümleri",
+      "text": "Akrilik, epoksi ve farklı yüzey grupları için ihtiyaca uygun ürün planlaması yapıyoruz.",
+      "badge": "Sanayi Boyaları",
       "category": "sanayi-boyasi",
       "icon": "bi bi-buildings",
       "logo": "../assets/images/brands/industrial.svg",
-      "logoAlt": "Sanayi boyalari"
+      "logoAlt": "Sanayi boyaları"
     },
     {
-      "title": "Bakim urunleri ve uygulama destegi",
-      "text": "Arac bakiminda dogru urun secimi, uygulama sirasina uygun yonlendirme ve surekli destek veriyoruz.",
-      "badge": "Bakim Urunleri",
+      "title": "Bakım ürünleri ve uygulama desteği",
+      "text": "Araç bakıminda doğru ürün seçimi, uygulama sirasina uygun yönlendirme ve sürekli destek veriyoruz.",
+      "badge": "Bakım Ürünleri",
       "category": "bakim-urunleri",
       "icon": "bi bi-droplet-half",
       "logo": "../assets/images/brands/care.svg",
-      "logoAlt": "Bakim urunleri"
+      "logoAlt": "Bakım ürünleri"
     },
     {
-      "title": "Uzun vadeli is birligi modeli",
-      "text": "Sadece satis degil, karar surecinde guven veren iletisim ve tedarik duzeni kurmayi hedefliyoruz.",
-      "badge": "Kurumsal Yaklasim",
+      "title": "Uzun vadeli iş birligi modeli",
+      "text": "Sadece satış değil, karar sürecinde güven veren iletişim ve tedarik düzeni kurmayı hedefliyoruz.",
+      "badge": "Kurumsal Yaklaşım",
       "category": "yedek-parca,sanayi-boyasi,otomotiv-boyasi,bakim-urunleri",
       "icon": "bi bi-hand-thumbs-up",
       "logo": "../assets/images/brands/partner.svg",
-      "logoAlt": "Kurumsal yaklasim"
+      "logoAlt": "Kurumsal yaklaşım"
     }
   ],
   "cta": {
-    "title": "Referans sayfasini logolu proje kutulari, musteri segmentleri veya uygulama galerisi ile daha da guclendirebiliriz.",
+    "title": "Referans sayfasini logolu proje kutulari, müşteri segmentleri veya uygulama galerisi ile daha da güçlendirebiliriz.",
     "desc": "Bir sonraki adimda bu alana gercek marka logolari, portfoy kutulari ve kategori bazli filtreleme daha da zenginlestirilebilir.",
     "button": "Detay Konusalim"
   }

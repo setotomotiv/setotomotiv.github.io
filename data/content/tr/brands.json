@@ -1,61 +1,73 @@
 {
   "brands": {
-    "title": "Markalarimiz",
-    "desc": "Guvenilir tedarik zincirimizde yer alan secili markalar ve cozum ortaklari.",
+    "title": "Markalarımız",
+    "desc": "Güvenilir tedarik zincirimizde yer alan seçili markalar ve çözüm ortakları.",
     "filters": [
-      {"label": "Tum Markalar", "value": "all"},
-      {"label": "Yedek Parca", "value": "yedek-parca"},
-      {"label": "Otomotiv Boyalari", "value": "otomotiv-boyasi"},
-      {"label": "Bakim Urunleri", "value": "bakim-urunleri"}
+      {
+        "label": "Tüm Markalar",
+        "value": "all"
+      },
+      {
+        "label": "Yedek Parça",
+        "value": "yedek-parca"
+      },
+      {
+        "label": "Otomotiv Boyaları",
+        "value": "otomotiv-boyasi"
+      },
+      {
+        "label": "Bakım Ürünleri",
+        "value": "bakim-urunleri"
+      }
     ],
     "items": [
       {
         "name": "Peugeot",
-        "text": "Peugeot arac gruplari icin odakli yedek parca ve urun tedarigi.",
+        "text": "Peugeot araç grupları için odaklı yedek parça ve ürün tedariği.",
         "logo": "../assets/images/brands/peugeot.svg",
         "logoAlt": "Peugeot logo",
         "category": "yedek-parca",
-        "badge": "Yedek Parca"
+        "badge": "Yedek Parça"
       },
       {
         "name": "Citroen",
-        "text": "Citroen araclar icin dogru parca ve surec odakli tedarik destegi.",
+        "text": "Citroen araçlar için doğru parça ve süreç odaklı tedarik desteği.",
         "logo": "../assets/images/brands/citroen.svg",
         "logoAlt": "Citroen logo",
         "category": "yedek-parca",
-        "badge": "Yedek Parca"
+        "badge": "Yedek Parça"
       },
       {
         "name": "Axalta",
-        "text": "Profesyonel otomotiv boya cozumleri ve ilgili uygulama destegi.",
+        "text": "Profesyonel otomotiv boya çözümleri ve ilgili uygulama desteği.",
         "logo": "../assets/images/brands/axalta.svg",
         "logoAlt": "Axalta logo",
         "category": "otomotiv-boyasi",
-        "badge": "Otomotiv Boyalari"
+        "badge": "Otomotiv Boyaları"
       },
       {
         "name": "Standox",
-        "text": "Yuksek kalite refinishing ve renk cozumleri.",
+        "text": "Yüksek kalite refinishing ve renk çözümleri.",
         "logo": "../assets/images/brands/standox.svg",
         "logoAlt": "Standox logo",
         "category": "otomotiv-boyasi",
-        "badge": "Otomotiv Boyalari"
+        "badge": "Otomotiv Boyaları"
       },
       {
         "name": "Duxone",
-        "text": "Verimli, erisilebilir ve profesyonel boya urun gruplari.",
+        "text": "Verimli, erişilebilir ve profesyonel boya ürün grupları.",
         "logo": "../assets/images/brands/duxone.svg",
-        "logoAlt": "Duxone logo",
+        "logoAlt": "Duxöne logo",
         "category": "otomotiv-boyasi",
-        "badge": "Otomotiv Boyalari"
+        "badge": "Otomotiv Boyaları"
       },
       {
-        "name": "Bakim Urunleri",
-        "text": "Arac bakim ve uygulama destek urunlerinde secili cozumler.",
+        "name": "Bakım Ürünleri",
+        "text": "Araç bakım ve uygulama destek ürünlerinde seçili çözümler.",
         "logo": "../assets/images/brands/care.svg",
         "logoAlt": "Care products logo",
         "category": "bakim-urunleri",
-        "badge": "Bakim Urunleri"
+        "badge": "Bakım Ürünleri"
       }
     ]
   }

@@ -1,60 +1,60 @@
 {
   "breadcrumb": {
-    "eyebrow": "Hizmetler / Cozumler",
-    "title": "Ihtiyaca uygun urun, destekli hizmet.",
-    "desc": "Tedarik surecinde hiz, guven ve teknik yonlendirme odakli hizmet basliklarimiz."
+    "eyebrow": "Hizmetler / Çözümler",
+    "title": "Ihtiyaca uygun ürün, destekli hizmet.",
+    "desc": "Tedarik sürecinde hiz, güven ve teknik yönlendirme odaklı hizmet basliklarimiz."
   },
   "intro": {
     "eyebrow": "Hizmet kapsami",
-    "title": "Dort temel alanda cozum sunuyoruz.",
-    "desc": "Her hizmet basliginda dogru urun secimi, surec takibi ve ihtiyaca uygun yonlendirme onceliklidir."
+    "title": "Dort temel alanda çözüm sunuyoruz.",
+    "desc": "Her hizmet başlığında doğru ürün seçimi, süreç takibi ve ihtiyaca uygun yönlendirme onceliklidir."
   },
   "cards": [
     {
-      "title": "Yedek Parca",
-      "desc": "Peugeot ve Citroen odakli yedek parca tedariğinde guvenilir kaynak ve dogru parca eslestirmesi.",
+      "title": "Yedek Parça",
+      "desc": "Peugeot ve Citroen odaklı yedek parça tedariğinde güvenilir kaynak ve doğru parça eslestirmesi.",
       "list": [
-        "Orijinal ve ithal secenekler",
-        "Urun tespit destegi",
-        "Tedarik sureci takibi"
+        "Orijinal ve ithal seçenekler",
+        "Ürün tespit desteği",
+        "Tedarik süreci takibi"
       ]
     },
     {
-      "title": "Otomotiv Boyalari",
-      "desc": "Axalta tabanli cozumler, Standox ve Duxone urunleri ile profesyonel boya destegi.",
+      "title": "Otomotiv Boyaları",
+      "desc": "Axalta tabanli çözümler, Standox ve Duxöne ürünleri ile profesyonel boya desteği.",
       "list": [
-        "Tamir urunleri ve yardimci gruplar",
-        "Renk bankasi destegi",
-        "Uygulama surecine uygun yonlendirme"
+        "Tamir ürünleri ve yardımcı gruplar",
+        "Renk bankasi desteği",
+        "Uygulama sürecine uygun yönlendirme"
       ]
     },
     {
-      "title": "Sanayi Boyalari",
-      "desc": "Endustriyel, akrilik, epoksi ve farkli kullanim senaryolari icin desteklenen urun gruplari.",
+      "title": "Sanayi Boyaları",
+      "desc": "Endustriyel, akrilik, epoksi ve farklı kullanim senaryolari için desteklenen ürün grupları.",
       "list": [
-        "Yuzey uyumlu urun secimi",
+        "Yüzey uyumlu ürün seçimi",
         "Kurumsal tedarik modeli",
-        "Uzun vadeli is ortakligi"
+        "Uzun vadeli iş ortakligi"
       ]
     },
     {
-      "title": "Bakim Urunleri",
-      "desc": "Arac bakimi, yuzey koruma ve uygulama destek urunlerinde profesyonel cozum gruplari.",
+      "title": "Bakım Ürünleri",
+      "desc": "Araç bakımi, yüzey koruma ve uygulama destek ürünlerinde profesyonel çözüm grupları.",
       "list": [
-        "Bakim ve temizlik urun cesitliligi",
-        "Dogru urun secimi ve yonlendirme",
-        "Uygulama surecine uygun destek"
+        "Bakım ve temizlik ürün cesitliligi",
+        "Doğru ürün seçimi ve yönlendirme",
+        "Uygulama sürecine uygun destek"
       ]
     }
   ],
   "support": [
     {
-      "title": "Planlama ve surec yonetimi",
-      "text": "Dogru urunun belirlenmesi, tedarik akisinin planlanmasi ve zamaninda yonlendirme ile sureci daha verimli hale getiriyoruz."
+      "title": "Planlama ve süreç yönetimi",
+      "text": "Doğru ürünun belirlenmesi, tedarik akisinin planlanmasi ve zamanında yönlendirme ile süreci daha verimli hale getiriyoruz."
     },
     {
       "title": "Destek ve danismanlik",
-      "text": "Urun kullanimi, uygulama yaklasimi ve teknik ihtiyaclar icin iletisim odakli bir destek yapisi sunuyoruz."
+      "text": "Ürün kullanımı, uygulama yaklaşımı ve teknik ihtiyaclar için iletişim odaklı bir destek yapısı sunuyoruz."
     }
   ]
 }

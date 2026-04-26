@@ -1,3 +1,8 @@
+## 2.3.3 - Yerel Roboto font gecisi
+- Google Fonts CDN baglantilari tum HTML sayfalarindan kaldirildi.
+- Roboto fontu local() kaynakli CSS tanimi ile cihaz uzerinden kullanilacak hale getirildi.
+- CDN kullanilmadigi durumda Arial ve sistem sans-serif fallback korunur.
+
 ## v6.3.31 - Corporate audio delayed autoplay update
 
 - Kurumsal muzik kontrol butonu sol alta tasindi.
@@ -281,3 +286,21 @@
 - v6.3.34: Kurumsal muzik kontrolu back-to-top hizasina tasindi; premium cam efekt ve oynatma aninda isik halkasi eklendi.
 
 - v6.3.37: Dikey ses paneli yeniden dengelendi; panel artik butonun ustunde merkezli, cam efektli ve daha temiz gorunur.
+
+## 2.3.2 - Roboto tipografi ve hata taramasi
+- Genel site fontu Inter yerine Roboto olarak guncellendi.
+- Google Fonts baglantilari Roboto ailesine tasindi.
+- CSS font smoothing yazim hatasi duzeltildi.
+- HTML sayfalarda yerel asset/link kontrolu yapildi; eksik baglanti tespit edilmedi.
+
+## 2.3.4 - Turkish Character Fix
+
+- Turkish visible text, metadata and JSON content character issues were corrected.
+- Link paths, slugs and asset references were preserved.
+
+## 2.3.5 - Local Roboto Folder Fix
+
+- `assets/fonts/roboto/` klasoru eklendi.
+- `assets/css/site.css` icindeki Roboto tanimlari yerel `.woff2` dosya yollarina baglandi.
+- CDN font baglantisi kullanilmadigi tekrar dogrulandi.
+- Root `index.html` icindeki `display:grid` yazim hatasi duzeltildi.

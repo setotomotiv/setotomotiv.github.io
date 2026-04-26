@@ -1,12 +1,12 @@
 {
   "breadcrumb": {
-    "eyebrow": "Iletisim / Ulasim",
-    "title": "Bize ulasmak icin hazirsiniz.",
-    "desc": "Telefon, e-posta ve konum bilgileri ile hizli iletisim kanallarimiz."
+    "eyebrow": "İletişim / Ulaşım",
+    "title": "Bize ulaşmak için hazırsınız.",
+    "desc": "Telefon, e-posta ve konum bilgileri ile hızlı iletişim kanallarımız."
   },
   "panel": {
-    "eyebrow": "Iletisim bilgileri",
-    "title": "Size en hizli sekilde donelim.",
+    "eyebrow": "İletişim bilgileri",
+    "title": "Size en hızlı şekilde dönelim.",
     "items": {
       "phoneLabel": "Telefon",
       "emailLabel": "E-posta",
@@ -16,23 +16,23 @@
   },
   "map": {
     "eyebrow": "Konum",
-    "title": "Harita uzerinden ulasin.",
-    "desc": "Harita dogrudan acilmiyorsa alttaki buton ile Google Maps uzerinde konumu acabilirsiniz.",
+    "title": "Harita üzerinden ulaşın.",
+    "desc": "Harita doğrudan acilmiyorsa alttaki buton ile Google Maps üzerinde konumu açabilirsiniz.",
     "primary": "Haritada Ac",
     "secondary": "E-posta Gonder",
     "badges": {
       "badge1": "Merkezi Konum",
-      "badge2": "Hizli Ulasim",
-      "badge3": "Guvenilir Destek"
+      "badge2": "Hızlı Ulaşım",
+      "badge3": "Güvenilir Destek"
     }
   },
   "quickQuote": {
-    "eyebrow": "Hizli teklif / destek",
-    "title": "Ihtiyaciniza uygun cozum icin bizimle hemen iletisime gecin.",
-    "desc": "Yedek parca, otomotiv boyalari, sanayi boyalari ve bakim urunleri icin telefon, e-posta veya WhatsApp uzerinden hizlica ulasabilirsiniz.",
+    "eyebrow": "Hızlı teklif / destek",
+    "title": "Ihtiyaciniza uygun çözüm için bizimle hemen iletişime geçin.",
+    "desc": "Yedek parça, otomotiv boyaları, sanayi boyaları ve bakım ürünleri için telefon, e-posta veya WhatsApp üzerinden hızlıca ulasabilirsiniz.",
     "primary": "Bizi Arayin",
     "secondary": "WhatsApp Yaz",
     "tertiary": "E-posta Gonder",
-    "note": "Mesai saatlerinde daha hizli geri donus saglanir."
+    "note": "Mesai saatlerinde daha hızlı geri donus saglanir."
   }
 }

@@ -34,7 +34,7 @@ Kod degismeden once ilgili dokuman kontrol edilmeli ve gerekiyorsa guncellenmeli
 - Ana stil dosyasi: `assets/css/site.css`
 - Aktif JS dosyalari: `assets/js/*.js`
 - Yukari cik butonu: `assets/js/site.js` tarafindan olusturulur, scroll sonrasi gorunur
-- Font kullanimi: Google Fonts Inter CDN
+- Font kullanimi: Yerel Roboto ve sistem font fallback
 - Genel ikon kullanimi: Bootstrap Icons CDN
 - Sosyal ikon kullanimi: `assets/icons/social/` altindaki yerel SVG dosyalari dogrudan `img` olarak kullanilir
 - Yerel `assets/fonts/` klasoru artik yoktur

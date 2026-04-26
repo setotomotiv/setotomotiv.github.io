@@ -1,37 +1,37 @@
 {
   "breadcrumb": {
     "eyebrow": "Kurumsal sayfa / Hakkımızda",
-    "title": "Koklu tecrübe, guvenilir hizmet anlayisi.",
-    "desc": "Set Otomotiv'in kurumsal yolculugu, yaklasimi ve temel degerleri."
+    "title": "Köklü tecrübe, güvenilir hizmet anlayışı.",
+    "desc": "Set Otomotiv'in kurumsal yolculuğu, yaklaşımı ve temel değerleri."
   },
   "intro": {
-    "eyebrow": "1985'ten bugune",
-    "title": "Otomotiv sektorunde guven veren bir isim olma hedefiyle ilerliyoruz.",
-    "p1": "1985 yilinda Sivas'ta kurulan Set Otomotiv; otomotiv sektorunde teknoloji, yenilik ve surekli gelisim yaklasimi ile faaliyetlerine baslamistir. Kurulusundan bu yana profesyonellik, durustluk ve pazari gelistirme anlayisi ile istikrarli bir buyume gostermistir.",
-    "p2": "Sektordeki yeni talepleri yakindan takip eden yapisi sayesinde firma, idari ve mali birikimini dogru organizasyon ile birlestirerek alaninda saygin bir konuma ulasmistir.",
+    "eyebrow": "1985'ten bugüne",
+    "title": "Otomotiv sektöründe güven veren bir isim olma hedefiyle ilerliyoruz.",
+    "p1": "1985 yılında Sivas'ta kurulan Set Otomotiv; otomotiv sektöründe teknoloji, yenilik ve sürekli gelişim yaklaşımı ile faaliyetlerine başlamıştır. Kuruluşundan bu yana profesyonellik, dürüstlük ve pazarı geliştirme anlayışı ile istikrarlı bir büyüme göstermiştir.",
+    "p2": "Sektördeki yeni talepleri yakından takip eden yapısı sayesinde firma, idari ve mali birikimini doğru organizasyon ile birleştirerek alanında saygın bir konuma ulaşmıştır.",
     "list": [
-      "Kalitesi belgelenmis urun ve malzeme tercihine odaklanir.",
-      "Ustlendigi surecleri zamaninda ve beklenen kalite seviyesinin uzerinde tamamlamayi hedefler.",
-      "Deneyimli ekip ve kurumsal organizasyon ile sureklilik saglar."
+      "Kalitesi belgelenmiş ürün ve malzeme tercihine odaklanır.",
+      "Üstlendiği süreçleri zamanında ve beklenen kalite seviyesinin üzerinde tamamlamayı hedefler.",
+      "Deneyimli ekip ve kurumsal organizasyon ile süreklilik sağlar."
     ]
   },
   "values": [
     {
-      "title": "Guven",
-      "text": "Uzun sureli is iliskilerinde netlik, guven ve sureklilik odakli yaklasim."
+      "title": "Güven",
+      "text": "Uzun süreli iş ilişkilerinde netlik, güven ve süreklilik odaklı yaklaşım."
     },
     {
       "title": "Organizasyon",
-      "text": "Dogru surec yonetimi, tedarik planlamasi ve zamaninda yonlendirme."
+      "text": "Doğru süreç yönetimi, tedarik planlaması ve zamanında yönlendirme."
     },
     {
       "title": "Kalite",
-      "text": "Kanitlanmis urunler ve profesyonel destekle kaliteli cozum anlayisi."
+      "text": "Kanıtlanmış ürünler ve profesyonel destekle kaliteli çözüm anlayışı."
     }
   ],
   "cta": {
-    "title": "Set Otomotiv ailesi olarak modern yonetim teknikleri ve guvenilir urun secimi ile ilerliyoruz.",
-    "desc": "Saygilarimizla, Temel Ozelma - Yonetim Kurulu Baskani",
-    "button": "Iletisime Gecin"
+    "title": "Set Otomotiv ailesi olarak modern yönetim teknikleri ve güvenilir ürün seçimi ile ilerliyoruz.",
+    "desc": "Saygılarımızla, Temel Özelma - Yönetim Kurulu Başkanı",
+    "button": "İletişime Geçin"
   }
 }

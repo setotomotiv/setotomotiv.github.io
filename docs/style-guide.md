@@ -30,7 +30,7 @@ Metin:
 ## 2. Tipografi
 
 Aktif font:
-- Google Fonts Inter CDN
+- Yerel Roboto ve sistem font fallback
 
 Kural:
 - Yerel `assets/fonts/` klasoru kullanilmaz.

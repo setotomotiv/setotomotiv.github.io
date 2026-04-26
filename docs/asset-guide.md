@@ -31,7 +31,7 @@ Images:
 ## Font Kurali
 
 Aktif font:
-- Google Fonts Inter CDN
+- Yerel Roboto ve sistem font fallback
 
 Silinen yapi:
 - `assets/fonts/`
