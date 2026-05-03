@@ -17,7 +17,11 @@
     "type_label_tr": "Rehber",
     "type_label_en": "Guide",
     "source_note_tr": "Kod yapisi NCS S renk sistemi referans alinarak lokal rehber icin uretilmistir; resmi renk verisi degildir.",
-    "source_note_en": "The code structure is generated for a local guide using the NCS S color system as reference; it is not official color data."
+    "source_note_en": "The code structure is generated for a local guide using the NCS S color system as reference; it is not official color data.",
+    "details_label_tr": "Detaylari Goster",
+    "details_label_en": "Details",
+    "family_label_tr": "Renk Ailesi",
+    "family_label_en": "Color Family"
   },
   "filters": [
     {

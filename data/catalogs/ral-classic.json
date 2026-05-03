@@ -15,7 +15,11 @@
     "copy_tr": "Kopyala",
     "copy_en": "Copy",
     "all_tr": "Tum RAL",
-    "all_en": "All RAL"
+    "all_en": "All RAL",
+    "details_label_tr": "Detaylari Goster",
+    "details_label_en": "Details",
+    "family_label_tr": "Renk Ailesi",
+    "family_label_en": "Color Family"
   },
   "filters": [
     {

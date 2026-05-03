@@ -17,7 +17,11 @@
     "all_tr": "Tum RAL Effect",
     "all_en": "All RAL Effect",
     "type_label_tr": "Tip",
-    "type_label_en": "Type"
+    "type_label_en": "Type",
+    "details_label_tr": "Detaylari Goster",
+    "details_label_en": "Details",
+    "family_label_tr": "Renk Ailesi",
+    "family_label_en": "Color Family"
   },
   "filters": [
     {

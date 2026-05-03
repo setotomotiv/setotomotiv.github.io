@@ -22,7 +22,11 @@
     "note_label_en": "Note",
     "total_items": 359,
     "local_hosted": true,
-    "official": false
+    "official": false,
+    "details_label_tr": "Detaylari Goster",
+    "details_label_en": "Details",
+    "family_label_tr": "Renk Ailesi",
+    "family_label_en": "Color Family"
   },
   "filters": [
     {

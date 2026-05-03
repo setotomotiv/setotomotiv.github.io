@@ -28,6 +28,10 @@
       {
         "label": "Color Charts",
         "value": "color-chart"
+      },
+      {
+        "label": "PDF Catalog",
+        "value": "pdf-catalog"
       }
     ],
     "items": [
@@ -141,6 +145,62 @@
           "2353 local NCS S tones",
           "Code, HEX and RGB values",
           "Search and tone filters"
+        ]
+      },
+      {
+        "title": "Atlas Abrasives PDF Catalog",
+        "desc": "PDF catalog file for Atlas abrasive product groups.",
+        "badge": "PDF Catalog",
+        "category": "bakim boya pdf-catalog",
+        "icon": "bi bi-file-earmark-pdf",
+        "link": "../assets/catalogs/pdf/atlas-zimpara-katalog.pdf",
+        "action": "Open PDF",
+        "list": [
+          "Abrasive product groups",
+          "Paint preparation consumables",
+          "Local PDF catalog"
+        ]
+      },
+      {
+        "title": "Mirka PDF Catalog",
+        "desc": "PDF catalog for Mirka abrasives, polishing and surface preparation products.",
+        "badge": "PDF Catalog",
+        "category": "bakim boya pdf-catalog",
+        "icon": "bi bi-file-earmark-pdf",
+        "link": "../assets/catalogs/pdf/mirka-katalog.pdf",
+        "action": "Open PDF",
+        "list": [
+          "Abrasives and surface prep",
+          "Polishing support products",
+          "Local PDF catalog"
+        ]
+      },
+      {
+        "title": "Karbosan PDF Catalog",
+        "desc": "PDF catalog for Karbosan cutting, grinding and abrasive product groups.",
+        "badge": "PDF Catalog",
+        "category": "bakim boya pdf-catalog",
+        "icon": "bi bi-file-earmark-pdf",
+        "link": "../assets/catalogs/pdf/karbosan-katalog.pdf",
+        "action": "Open PDF",
+        "list": [
+          "Cutting and grinding products",
+          "Abrasive consumables",
+          "Local PDF catalog"
+        ]
+      },
+      {
+        "title": "Best Spray PDF Catalog",
+        "desc": "PDF catalog file for Best Spray product groups.",
+        "badge": "PDF Catalog",
+        "category": "boya bakim pdf-catalog",
+        "icon": "bi bi-file-earmark-pdf",
+        "link": "../assets/catalogs/pdf/best-sprey-katalog.pdf",
+        "action": "Open PDF",
+        "list": [
+          "Spray paint products",
+          "Care and application products",
+          "Local PDF catalog"
         ]
       }
     ]

@@ -28,6 +28,10 @@
       {
         "label": "Renk Kartelasi",
         "value": "renk-kartelasi"
+      },
+      {
+        "label": "PDF Katalog",
+        "value": "pdf-katalog"
       }
     ],
     "items": [
@@ -141,6 +145,62 @@
           "2353 lokal NCS S tonu",
           "Kod, HEX ve RGB bilgisi",
           "Arama ve ton filtreleri"
+        ]
+      },
+      {
+        "title": "Atlas Zimpara PDF Katalogu",
+        "desc": "Atlas zimpara urun gruplari icin PDF katalog dosyasi.",
+        "badge": "PDF Katalog",
+        "category": "bakim boya pdf-katalog",
+        "icon": "bi bi-file-earmark-pdf",
+        "link": "../assets/catalogs/pdf/atlas-zimpara-katalog.pdf",
+        "action": "PDF Ac",
+        "list": [
+          "Zimpara urun gruplari",
+          "Boya hazirlik sarf malzemeleri",
+          "Yerel PDF katalog"
+        ]
+      },
+      {
+        "title": "Mirka PDF Katalogu",
+        "desc": "Mirka zimpara, polisaj ve yuzey hazirlik urunleri icin PDF katalog.",
+        "badge": "PDF Katalog",
+        "category": "bakim boya pdf-katalog",
+        "icon": "bi bi-file-earmark-pdf",
+        "link": "../assets/catalogs/pdf/mirka-katalog.pdf",
+        "action": "PDF Ac",
+        "list": [
+          "Zimpara ve yuzey hazirligi",
+          "Polisaj destek urunleri",
+          "Yerel PDF katalog"
+        ]
+      },
+      {
+        "title": "Karbosan PDF Katalogu",
+        "desc": "Karbosan kesme, taslama ve zimpara urun gruplari icin PDF katalog.",
+        "badge": "PDF Katalog",
+        "category": "bakim boya pdf-katalog",
+        "icon": "bi bi-file-earmark-pdf",
+        "link": "../assets/catalogs/pdf/karbosan-katalog.pdf",
+        "action": "PDF Ac",
+        "list": [
+          "Kesme ve taslama urunleri",
+          "Zimpara sarf malzemeleri",
+          "Yerel PDF katalog"
+        ]
+      },
+      {
+        "title": "Best Sprey PDF Katalogu",
+        "desc": "Best Sprey urun gruplari icin PDF katalog dosyasi.",
+        "badge": "PDF Katalog",
+        "category": "boya bakim pdf-katalog",
+        "icon": "bi bi-file-earmark-pdf",
+        "link": "../assets/catalogs/pdf/best-sprey-katalog.pdf",
+        "action": "PDF Ac",
+        "list": [
+          "Sprey boya urunleri",
+          "Bakim ve uygulama urunleri",
+          "Yerel PDF katalog"
         ]
       }
     ]
