@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: assets/js/color-catalog.js
 # 📌 Amac: lokal RAL, RAL Effect, Pantone ve NCS katalog JSON dosyalarini okuyup renk kartelasi arayuzunu olusturmak
 # 📌 Modul - JavaScript
-# Version: 1.2.1
-# Aciklama: Arama, filtreleme, HEX kopyalama, not gosterimi ve sayfa metinlerini lokal RAL/RAL Effect/Pantone/NCS katalog verisiyle yonetir
+# Version: 1.3.0
+# Aciklama: Arama, filtreleme, HEX kopyalama ve acilir detayli renk kartlarini lokal RAL/RAL Effect/Pantone/NCS katalog verisiyle yonetir
 # Bagimli Oldugu Katman: View
 */
 (function () {
@@ -36,28 +36,33 @@
   }
 
   function buildCard(item, lang, labels) {
-    var textColor = isLight(item.hex) ? '#0f172a' : '#ffffff';
     var name = getText(item, 'name', lang);
     var family = getText(item, 'family', lang);
     var type = getText(item, 'type', lang);
     var note = getText(item, 'note', lang);
     var noteHtml = note ? '<p class="color-card-note">' + escapeHtml(note) + '</p>' : '';
+    var familyHtml = family ? '<div><dt>' + escapeHtml(labels.family) + '</dt><dd>' + escapeHtml(family) + '</dd></div>' : '';
+    var typeHtml = type ? '<div><dt>' + escapeHtml(labels.type) + '</dt><dd>' + escapeHtml(type) + '</dd></div>' : '';
+    var nameHtml = name ? '<p class="color-card-name">' + escapeHtml(name) + '</p>' : '';
     return '' +
-      '<article class="color-card" data-color-card data-family="' + escapeHtml(item.family) + '" data-search="' + escapeHtml(normalize([item.code, name, item.hex, item.rgb, family, note].join(' '))) + '">' +
-        '<div class="color-swatch" style="background:' + escapeHtml(item.hex) + ';color:' + textColor + '">' +
-          '<span>' + escapeHtml(item.hex) + '</span>' +
-        '</div>' +
+      '<article class="color-card color-card-compact" data-color-card data-family="' + escapeHtml(item.family) + '" data-search="' + escapeHtml(normalize([item.code, name, item.hex, item.rgb, family, note, type].join(' '))) + '">' +
+        '<div class="color-swatch color-swatch-clean" style="background:' + escapeHtml(item.hex) + ';" aria-label="' + escapeHtml(item.code + ' ' + name) + '"></div>' +
         '<div class="color-card-body">' +
-          '<span class="brand-chip">' + escapeHtml(family) + '</span>' +
           '<h3>' + escapeHtml(item.code) + '</h3>' +
-          '<p>' + escapeHtml(name) + '</p>' +
-          '<dl>' +
-            '<div><dt>HEX</dt><dd>' + escapeHtml(item.hex) + '</dd></div>' +
-            '<div><dt>RGB</dt><dd>' + escapeHtml(item.rgb) + '</dd></div>' +
-            '<div><dt>' + escapeHtml(labels.type) + '</dt><dd>' + escapeHtml(type) + '</dd></div>' +
-          '</dl>' +
-          noteHtml +
-          '<button class="btn btn-outline-dark btn-sm w-100" type="button" data-copy-color="' + escapeHtml(item.hex) + '">' + escapeHtml(labels.copy) + '</button>' +
+          '<details class="color-card-details">' +
+            '<summary><span>' + escapeHtml(labels.details) + '</span><i class="bi bi-chevron-down" aria-hidden="true"></i></summary>' +
+            '<div class="color-card-details-body">' +
+              nameHtml +
+              '<dl>' +
+                familyHtml +
+                '<div><dt>HEX</dt><dd>' + escapeHtml(item.hex) + '</dd></div>' +
+                '<div><dt>RGB</dt><dd>' + escapeHtml(item.rgb) + '</dd></div>' +
+                typeHtml +
+              '</dl>' +
+              noteHtml +
+              '<button class="btn btn-outline-dark btn-sm w-100" type="button" data-copy-color="' + escapeHtml(item.hex) + '">' + escapeHtml(labels.copy) + '</button>' +
+            '</div>' +
+          '</details>' +
         '</div>' +
       '</article>';
   }
@@ -113,7 +118,9 @@
           empty: meta['empty_' + lang] || meta.empty_tr || 'Sonuc yok',
           count: meta['count_' + lang] || meta.count_tr || 'renk listeleniyor',
           type: meta['type_label_' + lang] || meta.type_label_tr || 'Tip',
-          note: meta['note_label_' + lang] || meta.note_label_tr || 'Not'
+          note: meta['note_label_' + lang] || meta.note_label_tr || 'Not',
+          family: meta['family_label_' + lang] || meta.family_label_tr || (lang === 'en' ? 'Family' : 'Aile'),
+          details: meta['details_label_' + lang] || meta.details_label_tr || (lang === 'en' ? 'Details' : 'Detaylari Goster')
         };
         root.querySelector('[data-color-title]').textContent = meta['title_' + lang] || meta.title_tr || '';
         root.querySelector('[data-color-desc]').textContent = meta['desc_' + lang] || meta.desc_tr || '';

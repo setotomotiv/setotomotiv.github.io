@@ -1,3 +1,18 @@
+# 📄 Dosya Yolu: docs/changelog.md
+# 📌 Amac: proje paket degisikliklerini surum bazli kaydetmek
+# 📌 Modul - Markdown
+# Version: 1.1.3
+# Aciklama: Set Otomotiv statik site paketlerinin katalog, renk kartelasi ve PDF katalog degisikliklerini kaydeder
+# Bagimli Oldugu Katman: View
+
+## v6.3.32 - Kompakt renk kartlari ve PDF katalog ekleri
+
+- RAL, RAL Effect, Pantone ve NCS renk kartlari kompakt hale getirildi.
+- Renk kartlarinda yalnizca renk alani ve kod acik gorunur hale getirildi.
+- HEX, RGB, renk ailesi, tip, ad ve not bilgileri acilir detay alanina tasindi.
+- Kataloglar sayfasina Atlas Zimpara, Mirka, Karbosan ve Best Sprey PDF katalog kartlari eklendi.
+- PDF katalog dosyalari icin `assets/catalogs/pdf/` klasoru eklendi.
+
 ## 2.3.3 - Yerel Roboto font gecisi
 - Google Fonts CDN baglantilari tum HTML sayfalarindan kaldirildi.
 - Roboto fontu local() kaynakli CSS tanimi ile cihaz uzerinden kullanilacak hale getirildi.
@@ -189,7 +204,7 @@
 ## v6.3.10 - HTTPS Guard
 
 - `assets/js/https-guard.js` eklendi.
-- Canli domainde `http://setotomotiv.com` istekleri `https://setotomotiv.com` adresine yonlendirilir.
+- Canli domainde `https://www.setotomotiv.com` istekleri `https://www.setotomotiv.com` adresine yonlendirilir.
 - `www.setotomotiv.com` kullanimi kanonik `setotomotiv.com` adresine yonlendirilir.
 - Localhost ve yerel test ortamlarinda yonlendirme devre disi kalacak sekilde ayarlandi.
 - Tum ana HTML sayfalarina HTTPS guard scripti erken yuklenecek sekilde eklendi.

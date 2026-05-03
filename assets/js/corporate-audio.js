@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: assets/js/corporate-audio.js
 # 📌 Amac: secili sayfalarda kurumsal fon muzigi icin back-to-top hizasinda konumlanan premium kontrol, isik halkasi ve geri sayim davranisini saglamak
 # 📌 Modul - JavaScript
-# Version: 1.5.0
+# Version: 1.5.1
 # Aciklama: 3 saniyelik kompakt sayac gosterir, kontrolu back-to-top ile ayni hizada sabitler ve oynatma durumunda premium isik halkasi gosterir
 # Bagimli Oldugu Katman: View
 */
@@ -186,8 +186,19 @@
     setBadgeMode(mode);
   }
 
+  function resolveVolume(value) {
+    var numericValue = Number(value);
+    if (!Number.isFinite(numericValue)) {
+      numericValue = Number(config.defaultVolume);
+    }
+    if (!Number.isFinite(numericValue)) {
+      numericValue = fallbackConfig.defaultVolume;
+    }
+    return Math.max(0, Math.min(1, numericValue));
+  }
+
   function setVolume(value) {
-    var volume = Math.max(0, Math.min(1, Number(value) || config.defaultVolume));
+    var volume = resolveVolume(value);
     if (state.audio) {
       state.audio.volume = volume;
     }
@@ -266,7 +277,7 @@
     var wrapper = document.createElement('div');
     wrapper.className = 'corporate-audio-widget';
     wrapper.setAttribute('data-corporate-audio', 'true');
-    wrapper.innerHTML = '<button class="corporate-audio-toggle" type="button" aria-pressed="false" aria-label="' + text.play + '"><span class="corporate-audio-icon" aria-hidden="true"><span class="bar bar-1"></span><span class="bar bar-2"></span><span class="bar bar-3"></span></span><span class="corporate-audio-badge is-off" aria-hidden="true"></span><span class="corporate-audio-countdown" hidden></span></button><label class="corporate-audio-volume"><span class="visually-hidden">' + text.volume + '</span><input type="range" min="0" max="1" step="0.01" value="' + (prefs.volume || config.defaultVolume) + '" /></label>';
+    wrapper.innerHTML = '<button class="corporate-audio-toggle" type="button" aria-pressed="false" aria-label="' + text.play + '"><span class="corporate-audio-icon" aria-hidden="true"><span class="bar bar-1"></span><span class="bar bar-2"></span><span class="bar bar-3"></span></span><span class="corporate-audio-badge is-off" aria-hidden="true"></span><span class="corporate-audio-countdown" hidden></span></button><label class="corporate-audio-volume"><span class="visually-hidden">' + text.volume + '</span><input type="range" min="0" max="1" step="0.01" value="' + resolveVolume(prefs.volume) + '" /></label>';
     state.widget = wrapper;
     state.button = wrapper.querySelector('.corporate-audio-toggle');
     state.badge = wrapper.querySelector('.corporate-audio-badge');
@@ -345,7 +356,7 @@
     state.audio = new Audio(resolveSource());
     state.audio.loop = true;
     state.audio.preload = 'auto';
-    state.audio.volume = prefs.volume || config.defaultVolume;
+    state.audio.volume = resolveVolume(prefs.volume);
     state.audio.addEventListener('pause', function () {
       if (!state.hasUserPaused) {
         updateUi(false);

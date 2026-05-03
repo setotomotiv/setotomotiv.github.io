@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: assets/js/content-loader.js
 # 📌 Amac: sayfa iceriklerini JSON kaynagindan okuyup ilgili sectionlara yerlestirmek
 # 📌 Modul - JavaScript
-# Version: 1.2.0
+# Version: 1.2.1
 # Aciklama: body data-content-file uzerinden JSON yukler, data-content alanlarini ve tekrarli bloklari doldurur
 # Bagimli Oldugu Katman: View
 */
@@ -30,6 +30,9 @@
   function interpolate(template, item) {
     return template
       .replace(/\{\{\s*([\w.]+)\s*\}\}/g, function (_, key) {
+        if (key === 'LIST') {
+          return _;
+        }
         var value = getValueByPath(item, key);
         return value === null || typeof value === 'undefined' ? '' : escapeHtml(value);
       })

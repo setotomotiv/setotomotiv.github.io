@@ -32,8 +32,8 @@ Ornek:
 - Root yonlendirme sayfalarinda canonical hedef sayfaya uygun olmalidir.
 
 Katalog ornegi:
-- `https://setotomotiv.com/tr/catalogs.html`
-- `https://setotomotiv.com/en/catalogs.html`
+- `https://www.setotomotiv.com/tr/catalogs.html`
+- `https://www.setotomotiv.com/en/catalogs.html`
 
 ## 4. Hreflang
 
@@ -87,7 +87,7 @@ Katalog PDF dosyalari eklendiginde:
 
 - GitHub Pages tarafinda `Enforce HTTPS` acik olmalidir.
 - Site icinde JS tabanli HTTPS guard kullanilmaz.
-- Ana kanonik domain meta ve sitemap tarafinda `https://setotomotiv.com` olarak korunur.
+- Ana kanonik domain meta ve sitemap tarafinda `https://www.setotomotiv.com` olarak korunur.
 - `www` veya `non-www` yonlendirme karari hosting/DNS tarafinda tek noktadan uygulanir.
 - GitHub Pages `Enforce HTTPS` acik olmali; tarayici tarafinda protokol/host degistiren script eklenmemelidir.
 
