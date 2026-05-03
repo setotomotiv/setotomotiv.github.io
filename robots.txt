@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://setotomotiv.com/sitemap.xml
+Sitemap: https://www.setotomotiv.com/sitemap.xml
